@@ -176,11 +176,21 @@
  }                        
 
  .pp2{
-  background-color: #211F20;
+          background-color: #211F20;
            max-width: 800px;
            min-width: 350px;
            height: 32px;
            margin: auto;
            position: relative;
            top: -3px;
+           display: flex;
+
  }
+
+ h2{ font-size: 25px;
+  color: rgb(255, 255, 255);
+  margin: 0%;
+  background-color: #211F20;
+
+ }
+ 
