@@ -1,1 +1,6 @@
 font-family: 'Noto Sans Mono', monospace;
+<div class="numero">
+                              <h1 class="nun1">(31)9 9999-9999</h1>
+                              <h1 class="nun2">(31)9 9999-9999</h1>
+
+                    </div>
