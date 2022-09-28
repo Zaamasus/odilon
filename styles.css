@@ -204,7 +204,7 @@
  }
 
  h2.text01{ 
-  font-size: 20px;
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
   color: rgb(255, 255, 255);
   margin: 0%;
   background-color: #211F20;
