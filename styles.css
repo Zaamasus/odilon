@@ -1,77 +1,77 @@
 * {
-         
-          background-color: gray;
-        margin: 0;
+ 
+  background-color: gray;
+margin: 0;
       padding: 0%; }
  
  
-            /* MENU */
+    /* MENU */
  .top-main{   
-          
-           background-color: #211F20;
-           max-width: 800px;
-           min-width: 350px;
-           height: 108px;
-           margin: auto;
-           justify-content: flex-start;
-           align-items: center;
-           display: flex;
-           border-radius: 4px;
+  
+   background-color: #211F20;
+   max-width: 800px;
+   min-width: 350px;
+   height: 108px;
+   margin: auto;
+   justify-content: flex-start;
+   align-items: center;
+   display: flex;
+   border-radius: 4px;
  }
  
  header{
-           margin: auto;
+   margin: auto;
  }
  
  
  a {
-           color: white;
-           text-decoration: none;
-           transition: .3s;
-           background-color: #211F20;
+   color: white;
+   text-decoration: none;
+   transition: .3s;
+   background-color: #211F20;
  }
  
  nav{
  
-           display: flex;
-           justify-content: space-around;
-           align-items:center ;
-           background-color: #211F20;
-           height: 8vh;
+   display: flex;
+   justify-content: space-around;
+   align-items:center ;
+   background-color: #211F20;
+   height: 8vh;
  }
  
  a:hover{
-           opacity: o.7;
+   opacity: o.7;
  
  }
  
  .logo{
-           position: relative;
-           max-width: 140px;
-           min-width: auto;
-           margin: auto;
-           background-color: #211F20;
-           margin: 15px;
+   position: relative;
+   max-width: 140px;
+   min-width: auto;
+   margin: auto;
+   background-color: #211F20;
+   margin: 15px;
  }
  h1{
-           font-size: 13px;
-           background-color: #211F20
-          
+   font-size: 13px;
+   background-color: #211F20
+  
  }
  .numero{
-           display: block;
-           color: white;
-           background-color: #211F20;
-           position: relative;
-           left: 30px;
-          
+   display: block;
+   color: white;
+   background-color: #211F20;
+   position: relative;
+   left: 30px;
+  
  
  }
  @media(min-width: 5px) {
-           h1 {
-            font-size: 14px;
-           }
-          }
+   h1 {
+    font-size: 14px;
+   }
+  }
 .inconw{
   background-color:#211F20;
 }
@@ -97,41 +97,41 @@
  
 }
  main{
-           background-color: #211F20;
-           background-size: cover;
-           height: 92vh;
+   background-color: #211F20;
+   background-size: cover;
+   height: 92vh;
  }
  
  .nav-list{
-           list-style: none;
-           display: flex;
-           background-color: #211F20;
-           text-decoration: none;
-           font-size: 3vh;
-           
+   list-style: none;
+   display: flex;
+   background-color: #211F20;
+   text-decoration: none;
+   font-size: 3vh;
+   
  }
  
  .nav-list li{
-           letter-spacing: 3px;
-          margin-left: 32px;
+   letter-spacing: 3px;
+  margin-left: 32px;
  
  }
  
  .mobile-menu{
-           display: none;
-           cursor: pointer;
+   display: none;
+   cursor: pointer;
  }
  .mobile-menu div {
-           width: 32px;
-           height: 2px;
-           background:#211F20 ;
-           margin: 8px;
-           transition: 0.3s;
-         }
+   width: 32px;
+   height: 2px;
+   background:#211F20 ;
+   margin: 8px;
+   transition: 0.3s;
+ }
  @media (max-width: 999px) {
-           body {
-             overflow-x: hidden;
-           }
+   body {
+     overflow-x: hidden;
+   }
  .nav-list {
   position: absolute;
   top: 8vh;
@@ -150,7 +150,7 @@
   margin-left: 0;
   opacity: 0;
    }
-           
+   
    .mobile-menu {
   display: block;
    }
@@ -185,27 +185,28 @@
    
    .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
-                             }
+     }
  .pp1{
-           background-color: #F5F5F5;
-           max-width: 800px;
-           min-width: 350px;
-           height: 5px;
-           margin: auto;
-           position: inherit;
-           top: -3px;
- }                        
+   background-color: #F5F5F5;
+   max-width: 800px;
+   min-width: 350px;
+   height: 5px;
+   margin: auto;
+   position: inherit;
+   top: -3px;
+ }
 
  .pp2{
-          background-color: #211F20;
-           max-width: 800px;
-           min-width: 350px;
-           height: 32px;
-           margin: auto;
-           position: inherit;
-           top: -3px;
-           display: flex;
-
+  background-color: #211F20;
+    max-width: 800px;
+    min-width: 350px;
+    height: 32px;
+    margin: auto;
+    position: inherit;
+    top: -3px;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
  }
 
  h2.text01{ 
@@ -233,3 +234,92 @@
   border-radius: 121px;
   margin: auto;
  }
+
+
+
+      /* SLIDES DAS IMGENS DO CLIENTE  */
+.bdy{
+ 
+    background-color: #211F20;
+    max-width: 800px;
+    min-width: 350px;
+    height: 110vw;
+    margin: auto;
+    position: inherit;
+    top: -3px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+
+
+.slider {
+  display: block;
+    height: 293px;
+    max-width: 350px;
+     min-width: 150px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    top: 25px;
+    right: 202px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.slider li {
+  list-style: none;
+  position: absolute;
+}
+
+.slider img {
+  margin: auto;
+  height: 100%;
+  max-width: 100%;
+  min-width: 25%;
+  vertical-align: top;
+}
+
+/* .......................................................................................................... */
+
+.slider input {
+  display: none;
+}
+/* .................................................................................................................... */
+
+.slider label {
+  background-color: #000;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+  left: 10px;
+}
+
+.slider li:nth-child(2) label {
+  left: 40px;
+}
+
+.slider li:nth-child(3) label {
+  left: 70px;
+}
+
+/* .......................................................................................................... */
+
+.slider img {
+  opacity: 1;
+  visibility: visible;
+}
+
+.slider li input:checked ~ img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
+}
