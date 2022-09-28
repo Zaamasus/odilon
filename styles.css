@@ -256,16 +256,16 @@ margin: 0;
 
 .slider {
   display: block;
-    height: 293px;
-    max-width: 350px;
-     min-width: 150px;
+    height: 397px;
+    max-width: 484px;
+    min-width: 150px;
     margin: auto;
     margin-top: 20px;
     position: relative;
     top: 25px;
-    right: 202px;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .slider li {
