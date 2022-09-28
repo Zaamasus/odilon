@@ -238,88 +238,59 @@ margin: 0;
 
 
       /* SLIDES DAS IMGENS DO CLIENTE  */
-.bdy{
- 
-    background-color: #211F20;
-    max-width: 800px;
-    min-width: 350px;
-    height: 110vw;
-    margin: auto;
-    position: inherit;
-    top: -3px;
-    justify-content: flex-start;
-    align-items: center;
+.slider{
+    margin: 0 auto;
+    max-width: 700px;
+    min-width: 400px;
+    max-height: 400px;
+    min-height: 200px;
+    overflow: hidden;
 
 }
 
+.slides{
+  max-width:400% ;
+  min-width: 200%;
+  max-height: 400px;
+  min-height: 200px;
+  display: flex;
 
-
-.slider {
-  display: block;
-    height: 397px;
-    max-width: 484px;
-    min-width: 150px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-    top: 25px;
-    justify-content: flex-start;
-    align-items: center;
 
 }
 
-.slider li {
-  list-style: none;
-  position: absolute;
-}
-
-.slider img {
-  margin: auto;
-  height: 100%;
-  max-width: 100%;
-  min-width: 25%;
-  vertical-align: top;
-}
-
-/* .......................................................................................................... */
-
-.slider input {
+.slides input{
   display: none;
-}
-/* .................................................................................................................... */
 
-.slider label {
-  background-color: #000;
-  bottom: 10px;
-  cursor: pointer;
-  display: block;
-  height: 10px;
-  position: absolute;
-  width: 10px;
-  z-index: 10;
 }
 
-.slider li:nth-child(1) label {
-  left: 10px;
+.slide{
+  width: 25% ;
+  position: relative;
 }
 
-.slider li:nth-child(2) label {
-  left: 40px;
+.slide img{
+
+  width: 486px;
+  height: 529px;
+  position: relative;
+  top: -330px;
+
+
 }
 
-.slider li:nth-child(3) label {
-  left: 70px;
+.manualnavgation{
+  position: absolute; 
+  width: 400px;
+  margin-top: -40px ;
+  display: flex;
+  justify-content: center;
 }
 
-/* .......................................................................................................... */
-
-.slider img {
-  opacity: 1;
-  visibility: visible;
-}
-
-.slider li input:checked ~ img {
-  opacity: 1;
-  visibility: visible;
-  z-index: 10;
+.manual-btn{
+  border:2px solid;
+padding: 5px;
+border-radius: 10px;
+cursor: pointer
+;
+   
 }
