@@ -105,6 +105,9 @@
  .nav-list{
            list-style: none;
            display: flex;
+           background-color: #211F20;
+           text-decoration: none;
+           
  }
  
  .nav-list li{
@@ -212,7 +215,7 @@
   margin: auto;
 
  }h2.text02{ 
-  font-size: clamp(2px, 5px + 3vw, 24px);
+  font-size: clamp(2px, 5px + 8px, 24px);
   color: rgb(255, 255, 255);
   margin: 0%;
   background-color: #211F20;
