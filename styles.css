@@ -208,14 +208,14 @@
  }
 
  h2.text01{ 
-  font-size: clamp(2px, 5px + 8px, 24px);
+  font-size: clamp(2px, 8px + 2vw, 24px);
   color: rgb(255, 255, 255);
   margin: 0%;
   background-color: #211F20;
   margin: auto;
 
  }h2.text02{ 
-  font-size: clamp(2px, 5px + 8px, 24px);
+  font-size: clamp(2px, 8px + 2vw, 24px);
   color: rgb(255, 255, 255);
   margin: 0%;
   background-color: #211F20;
