@@ -235,27 +235,31 @@ margin: 0;
   margin: auto;
  }
 
-
+.border{
+  margin: auto;
+  background-color: #211F20;
+ height: 670px;
+  max-width: 800px;
+  margin-top: 7px;
+}
 
       /* SLIDES DAS IMGENS DO CLIENTE  */
 .slider{
-    margin: 0 auto;
-    max-width: 700px;
-    min-width: 400px;
-    max-height: 400px;
-    min-height: 200px;
-    overflow: hidden;
-
+  margin:  auto;
+  width: 433px;
+  height: 412px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  top: 24px;
 }
 
+
 .slides{
-  max-width:400% ;
-  min-width: 200%;
-  max-height: 400px;
-  min-height: 200px;
-  display: flex;
-
-
+  position: absolute;
+ width: 37%;
+ height: 400px;
+ display: flex;
 }
 
 .slides input{
@@ -269,13 +273,10 @@ margin: 0;
 }
 
 .slide img{
-
-  width: 486px;
-  height: 529px;
-  position: relative;
-  top: -330px;
-
-
+  padding-top: 16px;
+  padding-left: 38px;
+  width: 365px;
+  
 }
 
 .manualnavgation{
@@ -287,10 +288,42 @@ margin: 0;
 }
 
 .manual-btn{
-  border:2px solid;
-padding: 5px;
-border-radius: 10px;
-cursor: pointer
-;
+
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
    
+    height: -2px;
+    top: 385px;
+    position: relative;
+    display: inline-flex;
+    left: 77px;
+}
+
+
+.manual-btn:last-child{
+
+  margin-right: 50px;
+
+}
+.manual-btn:hover{
+  background-color: white;
+  color:black;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+  margin-left: 25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: 25%;
+}
+#radio4:checked ~ .first{
+  margin-left: 25%;
 }
