@@ -279,14 +279,19 @@ margin: 0;
   margin: auto;
 }
 .video-ap{
-  display: flex;
-  position: absolute;
-  margin: 0 auto;
+  background-color: #211F20;
+  max-width: 800px;
+  min-width: 350px;
+  height: 32px;
+  margin: auto;
+  position: inherit;
+  justify-content: center;
+  align-items: center;
+display: grid;
   
 }
-iframe{
-  height: 315px;
-  width: 560px;
-  margin: 0 auto;
-  display: block;
+
+video{
+  margin-top: 25px;
+  
 }
