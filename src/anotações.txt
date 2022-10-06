@@ -66,3 +66,87 @@ font-family: 'Noto Sans Mono', monospace;
 
 
           </div>
+          .slider{
+  margin:  auto;
+  width: 433px;
+  height: 412px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  top: 24px;
+}
+
+
+.slides{
+  position: absolute;
+ width: 37%;
+ height: 400px;
+ display: flex;
+}
+
+.slides input{
+  display: none;
+
+}
+
+.slide{
+  width: 25% ;
+  position: relative;
+}
+
+.slide img{
+  padding-top: 16px;
+  padding-left: 38px;
+  width: 365px;
+  
+}
+
+.manualnavgation{
+  position: absolute; 
+  width: 400px;
+  margin-top: -40px ;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+   
+    height: -2px;
+    top: 385px;
+    position: relative;
+    display: inline-flex;
+    left: 77px;
+}
+
+
+.manual-btn:last-child{
+
+  margin-right: 50px;
+
+}
+.manual-btn:hover{
+  background-color: white;
+  color:black;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+  margin-left: 25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: 25%;
+}
+#radio4:checked ~ .first{
+  margin-left: 25%;
+}
+  
