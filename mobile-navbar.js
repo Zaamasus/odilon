@@ -40,5 +40,6 @@ class MobileNavbar {
           ".mobile-menu",
           ".nav-list",
           ".nav-list li",
+          ".numero",
         );
         mobileNavbar.init();
