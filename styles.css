@@ -223,7 +223,7 @@ margin: 0;
     border-top: 2px rgb(0, 255, 0) solid;
     border-bottom: 2px solid rgb(0, 255, 0);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
  }
 
