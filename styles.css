@@ -129,6 +129,7 @@ margin: 0;
    margin: 8px;
    transition: 0.3s; 
    font-size: clamp(2px, 8px + 2vw, 24px);
+   display: none;
  }
  @media (max-width: 999px) {
    body {
