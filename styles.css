@@ -138,7 +138,7 @@ margin: 0;
  .nav-list {
   position: absolute;
   top: 8vh;
- right: 0;
+ right:-1px;
  width: 32vw;
  height: 54vh;
  background: #211F20;
@@ -258,7 +258,7 @@ background-color: #211F20;
   width: 80px;
   margin: auto;
   position: relative;
-  right: 110px;
+   -ms-transform-origin-x: 130px;
 }
 .teste02{
  
