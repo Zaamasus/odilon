@@ -95,22 +95,7 @@ margin: 0;
 .inconw{
   background-color:#211F20;
 }
-.whats1{
-  
-  background-color: #211F20;
-  color: rgb(0, 255, 0);
-  width: 16px;
-  position:relative;
-  top: 4px;
-} 
-.whats2{
- 
-  background-color: #211F20;
-  color: rgb(0, 255, 0);
-  width: 16px;
-  position:relative;
-  top: 4px;
-}
+
  main{
    background-color: #211F20;
    background-size: cover;
@@ -235,21 +220,36 @@ margin: 0;
     min-width: 350px;
     height: 32px;
     margin: auto;
-    position: inherit;
-    top: -3px;
-    justify-content: flex-start;
-    align-items: center;
+    position: relative;
     display: flex;
+    align-items: center;
+    border-top: 2px rgb(0, 255, 0) solid;
+    border-bottom: 2px solid rgb(0, 255, 0);
  }
 
- h2.text01{ 
-  font-size: clamp(2px, 8px + 2vw, 24px);
-  color: rgb(255, 255, 255);
-  margin: 0%;
+ .whats1{
+  
   background-color: #211F20;
-  margin: auto;
+  color: rgb(0, 255, 0);
+  max-width: 23px;
+  min-width: 10px;
+  position: relative;
+  left: -139px
+ 
+} 
+.whats2{
+ 
+  background-color: #211F20;
+  color: rgb(0, 255, 0);
+  max-width: 23px;
+  min-width: 5px;
+  position: relative;
+  left: -167px
+}
 
- }h2.text02{ 
+
+ h2.text02{ 
+  width: 191px;
   font-size: clamp(2px, 8px + 2vw, 24px);
   color: rgb(255, 255, 255);
   margin: 0%;
