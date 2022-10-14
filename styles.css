@@ -1,15 +1,17 @@
+/* Se funcionar e Milagre */
+
+
+
+
 
 * {
   text-decoration: none;
   background-color: rgb(0, 0, 0);
   margin: 0;
   padding: 0%; 
-;}
-
-  
-
+}
+  /* Apenas um teste */
 span{
-
   animation-name: mov-icons;
   animation-duration: .5s;
   animation-fill-mode: forwards;
@@ -20,16 +22,17 @@ span{
   width: 805px;
   position: absolute;
   box-shadow: 0px 0px 8px 6px rgb(0 255 0);
-
-;
 }
-
+    /* Fim de teste */
 
 
 
 
  
     /* MENU */
+
+
+
  .top-main{   
   
    background-color: #000000;
@@ -53,13 +56,11 @@ span{
    text-decoration: none;
    transition: .3s;
    background-color: #000000;
-   
- }
+   }
  
  
  a:hover{
    opacity: o.7;
- 
  }
  
  .logo{
@@ -76,9 +77,8 @@ span{
   border-radius: 50px;
  }
 
-
+                    /* Animate 01 */
  @keyframes mov-logo{
-  
 
   from{ 
     opacity: 0;
@@ -88,12 +88,15 @@ span{
   to{
     opacity: 1;
     transform: translate(0);
+}}
+            /* Fim animate 01 */
 
-  }}
+/* 
+                                        
 
 
 
-                                          /* FIM DAS DIVISORIAS  */
+             */
 .a007{
   height: 85px;
   display: flex;
@@ -105,14 +108,16 @@ span{
 
 }
 
+
+
 .a007 h1{
   background-color:#000000 ;
   display: flex;
   color: white;
   font-size: 37px;
   position: relative;
-
 }
+
 
 .trav02{
   transform: rotate(270deg);
@@ -160,15 +165,14 @@ span{
   animation-fill-mode: forwards;
   transform: translateX(100px);
   animation-timing-function: ease;
- 
-
-
   display: flex;
   background-color: #000000;
   position: relative;
   justify-content: center;
   flex-direction: row-reverse;
  }
+
+
 .pp2d img {
   position: absolute;
   color: white;
@@ -178,8 +182,6 @@ span{
   width:45px
 }
 
-
-
  h3{
   background-color: #000000;
   color: white;
@@ -188,15 +190,15 @@ span{
  }
 
 
-
-
-
  .whats1{
+            /* Inicio Animação */
+
  animation-name: mov-icons;
  animation-duration: 1s;
  animation-fill-mode: forwards;
  transform: translateY(-50px);
   animation-timing-function: ease;
+            /* Fim da animação  */
 
 
   max-width: 33px;
@@ -204,19 +206,21 @@ span{
   position: relative;
 } 
 .whats2{
+        /* Inicio Animação */
 
   animation-name: mov-icons;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   transform: translateY(-50px);
   animation-timing-function: ease;
- 
+            /* Fim da animação  */
 
   max-width: 33px;
   background-color: #000000;
   position: relative;
 
 }
+/* Animação 02 */
 
 @keyframes mov-icons{
   
@@ -228,6 +232,10 @@ span{
 
   }
 }
+
+/* Fim da animação 02  */
+
+
 p{
   display: none;
   position: absolute;
@@ -242,15 +250,10 @@ p{
 }
 
 
-
  h2.text02{ 
-
-
-
   font-size: clamp(2px, 8px + 2vw, 46px);
-
-
  }
+
  .teste02{
   height: 50px;
 
@@ -262,15 +265,17 @@ p{
   align-items: center;
   background-color: white;
   margin: auto;
-
-
 }
+
+
 
  .nume{
   margin-left: 24px;
   display: block;
   background-color: #000000;
  }
+
+
 
  .icones{
     margin: auto;
@@ -310,9 +315,7 @@ p{
   color: white;
 }
 
-/* .a02 :hover{
-  width: 840px;
-} */
+
 
 .a02{
   background-color: #211F20;
@@ -338,14 +341,11 @@ p{
   flex-direction: row;
 }
 
-
-
-
-
 .a061{
 
   background-color: transparent;
 }
+
 
 .a061 h2{
   position: absolute;
@@ -355,9 +355,9 @@ p{
   width: 99vh;
   letter-spacing: 1pt;
   background-color: transparent;
-
-
 }
+
+
 
 .a02 h1{ 
 
@@ -367,22 +367,21 @@ p{
   font-size: 30px;
   width: 99vh;
   letter-spacing: 1pt;   
-  background-color: transparent;
-
-  
+  background-color: transparent;  
 }
 
-.mostra{
-  display: none;
-}
+
+
+
+
 
 .a02 img:hover h2{
   
   display: block;
-  background-color: #000000;
-
-  
+  background-color: #000000; 
 }
+
+
 
 
 .a02 img{
@@ -395,6 +394,8 @@ p{
     display: inline-block;
 }
 
+
+
 .trav{
   transform: rotate(270deg);
   width: 83px;
@@ -404,16 +405,17 @@ p{
   bottom: -60px;
   border-radius: 2px;
 }
-.a03{
-  height: 800px;
-  display:block;
-  background-color: #000000;
-  margin: auto;
-  width: 800px;
-  position: relative;
 
- 
+
+.a03{
+    height: 800px;
+    display:block;
+    background-color: #000000;
+    margin: auto;
+    width: 800px;
+    position: relative; 
 }
+
 
 .a008{
   height: 17vh;
@@ -423,11 +425,11 @@ p{
 .b01{
   
   margin: auto;
-  
-  
   height: 24px;
-background-color: #000000;
+  background-color: #000000;
 }
+
+
 .b01 h1{    
   background-color:#000000 ;
   display: flex;
@@ -443,8 +445,9 @@ background-color: #000000;
 .b02{
   display: flex;
   background-color: #000000;
-
 }
+
+
 
 .b02 img{
   margin: 10px 10px 10px 10px;
@@ -453,6 +456,8 @@ height: 90%;
 border: green 1px solid;
 border-radius:  10px;
 }
+
+
 
 .b03{
   margin: auto;
