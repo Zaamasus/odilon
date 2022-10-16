@@ -14,14 +14,14 @@ Tava ate bom, melhorou, agora parace que piorou */
 
 * {
   text-decoration: none;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(133, 131, 131);
   margin: 0;
   padding: 0%; 
 }
 
 
   /* Apenas um teste */
-span{
+.master{
   animation-name: mov-icons;
   animation-duration: .5s;
   animation-fill-mode: forwards;
@@ -31,21 +31,20 @@ span{
   margin: 0 20%;
   width: 805px;
   position: absolute;
-  box-shadow: 0px 0px 8px 6px rgb(0 255 0);
+  box-shadow: 0px 0px 8px 6px rgb(51, 255, 0);
 }
     /* Funcionou nao e mais um teste nao apaga  */
 
 
 
 
- 
-    /* MENU */
+
 
 
 
  .top-main{   
   
-   background-color: #000000;
+   background-color: rgb(133, 131, 131);
    max-width: 800px;
    min-width: 350px;
    height: 180px;
@@ -62,10 +61,10 @@ span{
  
  a {
   margin: auto;
-   color: white;
+   color: rgb(0, 0, 0);
    text-decoration: none;
    transition: .3s;
-   background-color: #000000;
+   background-color:  rgb(133, 131, 131);
    }
  
  
@@ -82,7 +81,7 @@ span{
   position: relative;
   max-width: 172px;
   min-width: auto;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
   padding: 12px;
   border-radius: 50px;
  }
@@ -121,9 +120,9 @@ span{
 
 
 .a007 h1{
-  background-color:#000000 ;
+  background-color: rgb(133, 131, 131) ;
   display: flex;
-  color: white;
+  color: black;
   font-size: 37px;
   position: relative;
 }
@@ -144,7 +143,7 @@ span{
  .pp2{
   width: 203px;
   display: block;
-  background-color: #000000;
+  background-color:  rgb(133, 131, 131);
   margin: auto;
   justify-content: center;
   align-items: center;
@@ -162,7 +161,7 @@ span{
 
   padding: auto;
   display: flex;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
   position: relative;
   justify-content: center;
   flex-direction: row-reverse;
@@ -176,7 +175,7 @@ span{
   transform: translateX(100px);
   animation-timing-function: ease;
   display: flex;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
   position: relative;
   justify-content: center;
   flex-direction: row-reverse;
@@ -185,16 +184,16 @@ span{
 
 .pp2d img {
   position: absolute;
-  color: white;
-  background: white;
+  color: black;
+  background: black;
   border-radius: 4px;
   mix-blend-mode: color-burn;
   width:45px
 }
 
  h3{
-  background-color: #000000;
-  color: white;
+  background-color: rgb(133, 131, 131);
+  color: black;
   margin: auto;
   position: relative;
  }
@@ -212,7 +211,7 @@ span{
 
 
   max-width: 33px;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
   position: relative;
 } 
 .whats2{
@@ -226,7 +225,7 @@ span{
             /* Fim da animação  */
 
   max-width: 33px;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
   position: relative;
 
 }
@@ -254,9 +253,9 @@ p{
   border-radius: 3px;
   left: calc(100% + 2px);
   content: attr(data-tooltip);
-  white-space: nowrap;
+  black-space: nowrap;
   background-color: #0095ff;
-  color: White;
+  color: black;
 }
 
 
@@ -273,7 +272,7 @@ p{
   justify-content: center;
   position: relative;
   align-items: center;
-  background-color: white;
+  background-color: black;
   margin: auto;
 }
 
@@ -282,14 +281,14 @@ p{
  .nume{
   margin-left: 24px;
   display: block;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
  }
 
 
 
  .icones{
     margin: auto;
-    background-color: #000000;
+    background-color: rgb(133, 131, 131);
     display: grid;
     margin-left: 61px;
 }
@@ -299,7 +298,7 @@ p{
   padding-bottom: 6px;
  padding-top: 15px;
   display: flex;
-  background-color: #211F20;
+  background-color: rgb(133, 131, 131);
   width: 348px;
   margin: auto;
   position: relative;
@@ -322,7 +321,7 @@ p{
 .a01 h1{
   font-size: 33px;
   margin: auto;
-  color: white;
+  color: black;
 }
 
 
@@ -359,7 +358,7 @@ p{
 
 .a061 h2{
   position: absolute;
-  color: white;
+  color: black;
   display: contents;
   font-size: 30px;
   width: 99vh;
@@ -372,7 +371,7 @@ p{
 .a02 h1{ 
 
   position: absolute;
-  color: white;
+  color: black;
   display: contents;
   font-size: 30px;
   width: 99vh;
@@ -388,7 +387,7 @@ p{
 .a02 img:hover h2{
   
   display: block;
-  background-color: #000000; 
+  background-color: rgb(133, 131, 131); 
 }
 
 
@@ -398,8 +397,9 @@ p{
   opacity: 8.7;
     background-color: #211F20;
     position: initial;
-    margin: auto;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 100%;
+    min-width: 70px;
     height: 100%;
     display: inline-block;
 }
@@ -420,7 +420,7 @@ p{
 .a03{
     height: 800px;
     display:block;
-    background-color: #000000;
+    background-color: rgb(133, 131, 131);
     margin: auto;
     width: 800px;
     position: relative; 
@@ -436,14 +436,14 @@ p{
   
   margin: auto;
   height: 24px;
-  background-color: #000000;
+  background-color: rgb(133, 131, 131);
 }
 
 
 .b01 h1{    
-  background-color:#000000 ;
+  background-color: rgb(133, 131, 131) ;
   display: flex;
-  color: white;
+  color: black;
   font-size: 40px;
   position: relative;
   margin: 10px;
@@ -454,7 +454,7 @@ p{
 
 .b02{
   display: flex;
-  background-color: #000000;
+  background-color:  rgb(133, 131, 131);
 }
 
 
@@ -473,20 +473,24 @@ border-radius:  10px;
   margin: auto;
   width: 424px;
   position: relative;
-  background-color: #000000;
+  background-color:  rgb(133, 131, 131);
 
 }
 .b03 p{
 
   display: flex;
-  background-color: #000000;
-  color: white;
+  background-color:  rgb(133, 131, 131);
+  color: black;
   font-size: 19px;
   margin: auto;
 
 }
 
-
+video{
+  width: 560px ;
+   height: 500px;
+   margin: auto;
+}
 
 
 
@@ -506,7 +510,7 @@ border-radius:  10px;
 
   background-color: #211F20;
   margin: auto;
-  color: white;
+  color: black;
   display: flex;
   margin-left:20px;
   margin-right: 20px;
