@@ -1,0 +1,100 @@
+/* 
+@media only screen and (max-width: 600px) {
+                    body {
+                      background-color: rgb(0, 0, 0);
+ } }
+
+body{     max-width: 400px;         
+          margin: 0;
+          padding: 0;
+          /* background-color: rgb(201, 240, 240) ; */
+}
+
+
+
+.master{
+                    max-width: 123px;
+
+}
+
+
+.top-main{
+max-width: 128px;
+
+}
+
+
+/* @media (max-width: 600px)
+{
+  .top-main img{
+                color: black;    
+    display: none;
+   }
+} */
+
+
+.top-main img{
+                    width: 228px;
+}
+
+.pp2 h3{            margin: 0 auto;
+                    color:white;
+                    font-size: 6px;
+}
+
+.pp2b{              justify-content: center;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: row-reverse;
+                    max-height: 12px
+
+}
+
+
+
+.pp2b img {
+                    position: relative;
+                    margin: 0 auto;
+                    max-width: 9px;
+                    left: 35px;
+}
+
+
+
+.pp2c{              
+                    max-height: 12px;
+                    flex-direction: row-reverse;
+                    justify-content: center;
+                    align-items: center;
+                    display: flex;
+
+}
+
+
+.pp2c img {
+
+                    position: relative;
+                    margin: 0 auto;
+                    max-width: 9px;
+                    left: 35px;
+}
+
+                                        /* Fim do Top-main */
+
+.quem-noss-somos h1{ 
+
+                    color: white;
+
+
+}
+
+@media (min-width: 350px)
+{
+.quem-noss-somos img{
+                    max-width: 500px;
+   }
+}
+.a02 img{
+
+                    width: 371px 
+} */

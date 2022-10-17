@@ -8,6 +8,10 @@ Muito menos eu kkk
 Tava ate bom, melhorou, agora parace que piorou */
 
 
+@media only screen and (max-width: 600px) {
+  * {
+    background-color: rgb(0, 0, 0);
+} }
 
 
 
@@ -20,27 +24,23 @@ Tava ate bom, melhorou, agora parace que piorou */
 }
 
 
-  /* Apenas um teste */
-.master{
-  animation-name: mov-icons;
-  animation-duration: .5s;
-  animation-fill-mode: forwards;
-  transform: translate(30px);
-  animation-timing-function: ease;
+@media (min-width: 600px)
+{
+  .master{
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+    transform: translate(30px);
+    animation-timing-function: ease;
+   
+    margin: 0 20%;
+    width: 805px;
+    position: absolute;
+    box-shadow: 0px 0px 8px 6px rgb(51, 255, 0);
  
-  margin: 0 20%;
-  width: 805px;
-  position: absolute;
-  box-shadow: 0px 0px 8px 6px rgb(51, 255, 0);
+   }
 }
-    /* Funcionou nao e mais um teste nao apaga  */
 
-
-
-
-
-
-
+  /* Apenas um teste */
 
  .top-main{   
   
