@@ -200,7 +200,7 @@ p{
 }
 
  .text02 h2 { 
-  display: none;
+  
 
   font-size: clamp(2px, 8px + 2vw, 46px);
  }
@@ -273,7 +273,7 @@ p{
   background-color: #000000;
   margin: auto;
   width: 100%;
-  height: 11vh;
+  height: 35vh;
 
   position: relative;
   display: inline-block;
@@ -281,12 +281,12 @@ p{
 
 
 .a026{
-  top: 1px;
+  top: 136px;
   position: absolute;
   background-color: transparent;
   width: 44vh;
-  height: 12vh;
-  display: flex;
+  height: 10vh;
+  display: contents;
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -314,7 +314,7 @@ p{
   position: absolute;
   color: white;
   display: contents;
-  font-size: 30px;
+  font-size: 48px;
   width: 99vh;
   letter-spacing: 1pt;   
   background-color: transparent;
@@ -472,6 +472,8 @@ header h1{
 }
 
 .text02 h2{
+  position: relative;
+  top: 56px;
   color: white;
 }
 
