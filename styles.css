@@ -247,11 +247,27 @@ p {
 
 /* Fim do top-main  */
 
+.main-img img{
+  display: none;
+	margin-right: 50px;
+	width: 60vh;
+	height: 70vh;
+  
 
+      
+}
+
+.td{
+  
+  background-image:  url(src/img/moto_09.jpg) ;
+  background-position: center;
+  background-size: cover;
+}
 
 
 
 .maint {
+ 
   width: 34vh;
   display: contents;
  
@@ -259,7 +275,7 @@ p {
 }
 
 .maint h1{
-	color: white;
+	color: rgb(0, 0, 0);
 	font-size: 30px ;
 	
 	margin-left: 22px;
@@ -267,14 +283,15 @@ p {
  }
 
  .maint h3 {
+  background-color: transparent;
   margin-left: 8px;
   
-  color: white;
+  color: rgb(0, 0, 0);
   font-size: 15px;
  }
 
  .quems{
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid rgb(0, 0, 0);
   margin-top: 30px;
   width: 100%;
   padding-bottom: 30px;
