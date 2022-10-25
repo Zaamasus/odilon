@@ -1,7 +1,7 @@
 @keyframes pulse {
 	0% {
-	transform: scale(0.95);
-	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
 	}
 
 	70% {
@@ -100,33 +100,65 @@ body {
 }
 
 .pp2c h3 {
-	color:rgb(101, 100, 100);
+	color: rgb(101, 100, 100);
 	font-size: 3vh;
 	padding-right: 15px;
-	
+
 
 
 }
- /* Fim do top-main */
 
+/* Fim do top-main */
+
+.main-img img{
+	margin-right: 50px;
+	width: 60vh;
+	height: 70vh;
+	border: 2px solid white;
+
+      
+}
+
+.td{
+	margin-top: 15px;
+	margin-left: 10px;
+	display: flex;
+}
 .maint {
-	background-color: rgb(70, 70, 70);
-
+	
+	width: 104vh;
 }
 
-
-.maint h1{
+.maint h1 {
 	color: white;
-	font-size: 38px;
-	width: 33vh;
+	font-size: 30px;
+
 	margin-left: 22px;
+
 }
-
-
 
 .maint h3 {
+	margin-left: 8px;
+	width: 99vh;
 	color: white;
-	font-size: 24px;
-	width: 128vh;
-         }
- 
+	font-size: 15px;
+}
+
+.quems {
+	
+	margin-top: 30px;
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+.miss {
+	
+	padding-bottom: 30px;
+	width: 100%;
+}
+
+.valor {
+
+	padding-bottom: 30px;
+	width: 100%;
+}

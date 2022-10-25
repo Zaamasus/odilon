@@ -23,7 +23,7 @@ body {
 }
 
 .top-main {
-
+  border-radius: 17px;
   border-bottom: rgb(99, 97, 97) 8px solid;
 
 
@@ -250,6 +250,7 @@ p {
 
 .maint {
   width: 34vh;
+  display: contents;
  
 
 }
@@ -263,20 +264,27 @@ p {
  }
 
  .maint h3 {
-  margin: auto;
-
+  margin-left: 8px;
+  
   color: white;
   font-size: 15px;
  }
 
  .quems{
+  border-bottom: 2px solid white;
+  margin-top: 30px;
   width: 100%;
+  padding-bottom: 30px;
  }
 
  .miss{
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
   width: 100%;
  }
 
  .valor{
+  
+  padding-bottom: 30px;
   width: 100%;
  }
