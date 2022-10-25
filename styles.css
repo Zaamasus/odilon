@@ -1,47 +1,47 @@
 @keyframes pulse {
-    0% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-    }
-  
-    70% {
-      transform: scale(1);
-      box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-    }
-  
-    100% {
-      transform: scale(0.95);
-      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
   }
 
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+  }
 
-body{
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+
+body {
   text-decoration: none;
   background-color: rgb(0, 0, 0);
   max-width: 600px;
 }
 
-.top-main{
-
+.top-main {
+  border-radius: 17px;
   border-bottom: rgb(99, 97, 97) 8px solid;
 
 
 }
-  
- .logo{
+
+.logo {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 10s  infinite;
+  transform: scale(1);
+  animation: pulse 10s infinite;
 
   width: 100%;
   margin: auto;
   display: block;
- }
- 
+}
 
-.a007 h1{
-  background-color:#000000 ;
+
+.a007 h1 {
+  background-color: #000000;
   display: flex;
   color: white;
   font-size: 37px;
@@ -49,7 +49,7 @@ body{
 
 }
 
-.trav02{
+.trav02 {
   transform: rotate(270deg);
   width: 83px;
   height: 9px;
@@ -61,9 +61,9 @@ body{
 }
 
 
- .pp2{
- 
- 
+.pp2 {
+
+
   margin-top: 25px;
   margin-right: auto;
   margin-bottom: 17px;
@@ -75,16 +75,15 @@ body{
   justify-content: center;
   align-items: center;
   letter-spacing: 1px
+}
 
- }
 
 
- 
-.pp2c{
+.pp2c {
 
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 3s 1;
+  transform: scale(1);
+  animation: pulse 3s 1;
 
 
 
@@ -102,12 +101,12 @@ body{
 }
 
 
- .pp2b{
+.pp2b {
 
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 3s 1;
-  
+  transform: scale(1);
+  animation: pulse 3s 1;
+
 
 
 
@@ -116,38 +115,38 @@ body{
   animation-fill-mode: forwards;
   transform: translateX(100px);
   animation-timing-function: ease;
-   display: flex;
+  display: flex;
   background-color: #000000;
   position: relative;
   justify-content: center;
   flex-direction: row-reverse;
- }
- 
+}
+
 .pp2d img {
   position: absolute;
   color: white;
   background: white;
   border-radius: 4px;
   mix-blend-mode: color-burn;
-  width:45px
+  width: 45px
 }
 
 
- h3{
-   background-color: #000000;
+h3 {
+  background-color: #000000;
   color: white;
   margin: auto;
   position: relative;
   font-size: 107%;
-  
- }
+
+}
 
 
 
- .whats1{
+.whats1 {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 3s infinite;
+  transform: scale(1);
+  animation: pulse 3s infinite;
 
 
 
@@ -157,20 +156,20 @@ body{
   max-width: 25px;
   background-color: #000000;
   position: relative;
-} 
+}
 
 
-.whats2{
+.whats2 {
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 3s infinite;
+  transform: scale(1);
+  animation: pulse 3s infinite;
 
 
   /* animation-name: mov-icons;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-  transform: translateY(-50px);
-  animation-timing-function: ease; */
+animation-duration: 1s;
+animation-fill-mode: forwards;
+transform: translateY(-50px);
+animation-timing-function: ease; */
   max-width: 25px;
   background-color: #000000;
   position: relative;
@@ -179,18 +178,17 @@ body{
 
 
 
-@keyframes mov-icons{
-  
-  from{
+@keyframes mov-icons {
 
-  }
-  to{
+  from {}
+
+  to {
     transform: translateY(0);
 
   }
 }
 
-p{
+p {
   display: none;
   position: absolute;
   top: -5px;
@@ -203,13 +201,13 @@ p{
   color: White;
 }
 
- .text02 h2 { 
-  
+.text02 h2 {
+
 
   font-size: clamp(2px, 8px + 2vw, 46px);
- }
+}
 
- .teste02{
+.teste02 {
   height: 50px;
   width: 331px;
   border-radius: 20px;
@@ -221,240 +219,92 @@ p{
   margin: auto;
 }
 
- .nume{
+.nume {
   margin-left: 24px;
   display: block;
   background-color: #000000;
- }
-
-
- .icones{
-    margin: auto;
-    background-color: #000000;
-    display: grid;
-    margin-left: 61px;
 }
 
-  
-.teste01{
+
+.icones {
+  margin: auto;
+  background-color: #000000;
+  display: grid;
+  margin-left: 61px;
+}
+
+
+.teste01 {
   padding-bottom: 6px;
- padding-top: 15px;
+  padding-top: 15px;
   display: flex;
   background-color: #211F20;
   width: 348px;
   margin: auto;
   position: relative;
-   -ms-transform-origin-x: 130px;
+  -ms-transform-origin-x: 130px;
 }
 
-.a01{
+/* Fim do top-main  */
 
-  background-color: #211F20;
-  display: flex;
-  width: 900px;
-  margin: auto;
-  margin-top: 0;
-  height: 59px;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.a01 h1{
-  font-size: 33px;
-  margin: auto;
-  color: white;
-}
-
-
-.a02{
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 10s infinite;
-
-
-
-  background-color: #000000;
-  margin: auto;
-  width: 100%;
-  height: 35vh;
-
-  position: relative;
-  display: inline-block;
-}
-
-
-.a026{
-  display: flex;
-  width: 54vh;
-  align-items: center;
- 
-}
-
-
-.a061{
-
-  background-color: transparent;
-}
-
-.a061 h2{
-  position: absolute;
-  color: white;
-  display: contents;
-  font-size: 30px;
-  width: 99vh;
-  letter-spacing: 1pt;
-  background-color: transparent;
-}
-
-.a02 h1{ 
-  
-
-  position: relative;
-  color: white;
-
-  font-size: 40px;
-  width: 35vh;
-
-
-  
-}
-
-.mostra{
+.main-img img{
   display: none;
-}
-
-.a02 img:hover h2{
+	margin-right: 50px;
+	width: 60vh;
+	height: 70vh;
   
+
+      
+}
+
+.td{
   
-  display: block;
-  background-color: #000000;
+  background-image:  url(src/img/moto_09.jpg) ;
+  background-position: center;
+  background-size: cover;
 }
 
 
-.a02 img{
-    opacity: 8.7;
-    background-color: #211F20;
-    position: initial;
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    display: inline-block;
-}
 
-.trav{
-  transform: rotate(270deg);
-  width: 83px;
-  height: 9px;
-  background-color: rgb(0, 255, 0);
-  position: relative;
-  bottom: -60px;
-  border-radius: 2px;
-  margin-left: -38px;
-  
-}
-.a03{
-  height: 80vh;
-  display:block;
-  background-color: #000000;
-  margin: auto;
-  width: 100%;
-  position: relative;
-
+.maint {
  
+  width: 34vh;
+  display: contents;
+ 
+
 }
 
+.maint h1{
+	color: rgb(0, 0, 0);
+	font-size: 30px ;
+	
+	margin-left: 22px;
 
-.a008{
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-	transform: scale(1);
-	animation: pulse 10s infinite;
+ }
 
-
-
-  width: 60vh;
-
-  height: 17vh;
-  align-items: center;
-  justify-content: center;
-  display: block;
-  position: relative;
-}
-
-
-.b01{
+ .maint h3 {
+  background-color: transparent;
+  margin-left: 8px;
   
-  margin: auto;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+ }
+
+ .quems{
+  border-bottom: 2px solid rgb(0, 0, 0);
+  margin-top: 30px;
+  width: 100%;
+  padding-bottom: 30px;
+ }
+
+ .miss{
+  border-bottom: 2px solid white;
+  padding-bottom: 30px;
+  width: 100%;
+ }
+
+ .valor{
   
-  
-  height: 24px;
-background-color: #000000;
-}
-.b01 h1{    
-  background-color: #000000;
-  display: flex;
-  color: white;
-  font-size: 47px;
-  position: relative;
-  margin: 10px;
-  left: 14px;
-  width: 46vh;
-  top: 28px;
-  }
-
-.b02{
-  display: flex;
-  background-color: #000000;
-
-}
-
-/* .b02 img{
-  margin: 10px 10px 10px 10px;
-width: 50%;
-height: 90%;
-border: green 1px solid;
-border-radius:  10px;
-} */
-
-@media (min-width:600px)
-{
-
-
-
-.b03{
-  margin: auto;
-  width: 424px;
-  position: relative;
-  background-color: #000000;
-
-}
-
-.b03 p{
-
-  display: flex;
-  background-color: #000000;
-  color: white;
-  font-size: 19px;
-  margin: auto;
-
-}
-
-.gep{
-
-          height: 17vh;
-          align-items: center;
-          justify-content: center;
-          display: block;
-          position: relative;
-          margin-left: 19px;
-          display: flex;
-
-}
-
-.gep img{
-
-  width: 150px;
-}
-.gep video{
-  width: 150px;
-}
+  padding-bottom: 30px;
+  width: 100%;
+ }
