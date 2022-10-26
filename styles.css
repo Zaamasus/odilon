@@ -246,20 +246,28 @@ p {
 }
 
 /* Fim do top-main  */
-
-.main-img img{
-  display: none;
-	margin-right: 50px;
-	width: 60vh;
-	height: 70vh;
+@keyframes mov-icons{
   
+  from{
 
-      
+  }
+  to{
+    transform: translateY(0);
+
+  }
+}
+.main-img img {
+
+
+  display: none;
+  margin-right: 50px;
+  width: 60vh;
+  height: 70vh;
 }
 
-.td{
-  
-  background-image:  url(src/img/moto_09.jpg) ;
+.td {
+
+  background-image: url(src/img/moto_09.jpg);
   background-position: center;
   background-size: cover;
 }
@@ -267,44 +275,90 @@ p {
 
 
 .maint {
- 
   width: 34vh;
   display: contents;
- 
+
 
 }
 
-.maint h1{
-	color: rgb(0, 0, 0);
-	font-size: 30px ;
-	
-	margin-left: 22px;
+.maint h1 {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
 
- }
+  margin-left: 22px;
 
- .maint h3 {
+}
+
+.maint h3 {
   background-color: transparent;
   margin-left: 8px;
-  
+
   color: rgb(0, 0, 0);
   font-size: 15px;
- }
+}
 
- .quems{
-  border-bottom: 2px solid rgb(0, 0, 0);
+.quems {
+
   margin-top: 30px;
   width: 100%;
   padding-bottom: 30px;
- }
+}
 
- .miss{
-  border-bottom: 2px solid white;
+.miss {
+
   padding-bottom: 30px;
   width: 100%;
- }
+}
 
- .valor{
-  
+.valor {
+
   padding-bottom: 30px;
   width: 100%;
- }
+}
+
+
+
+/* INICIO GALERIA  */
+
+
+header {
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 3rem;
+	font-weight: 900;
+	color: rgb(255, 255, 255);
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 2vw;
+	padding: 0 2vw;
+}
+
+.gallery-items {
+  width: 77px;
+  height: 130px;
+  border: 10px solid #FFF;
+  box-shadow: 5px 5px 5px #0006;
+  flex-grow: 1;
+  transition: transform .5s linear;
+
+}
+
+.gallery-items img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-items:hover {
+	transform: scale(1.3);
+}
