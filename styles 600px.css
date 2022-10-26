@@ -122,6 +122,7 @@ body {
 }
 
 .td {
+	border: 8px solid white;
 	margin-top: 15px;
 	margin-left: 10px;
 	display: flex;
