@@ -255,6 +255,19 @@ p {
 
 /* Fim do top-main  */
 
+.t01 {
+  justify-content: center;
+  align-items: center;
+}
+
+.t01 h1{
+  width: 25px;
+  font-size: 12px;
+}
+
+
+
+
 .contender0 {
 display: flex;
 }
