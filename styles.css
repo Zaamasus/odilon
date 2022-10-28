@@ -256,6 +256,12 @@ p {
 
 /* Fim do top-main  */
 
+.wtz{
+
+  width: 300px;
+  height: 300px ;
+}
+
 .t01 {
   padding-top: 12px;
   padding-bottom: 12px;
@@ -284,6 +290,7 @@ display: flex;
   padding-top: 10px;
   margin: auto;
 }
+
 
 
 
