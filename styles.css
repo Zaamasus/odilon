@@ -378,12 +378,54 @@ header h1 {
 
 /* -------------------------------Contatos --------------------- */
 
+@keyframes sinal{
+
+  0%{ 
+    transform: translateX(20px);
+  }
+
+  40%{ 
+    transform: translateX(0px);
+  }
+  60%{ 
+    transform: translateX(10px);
+  }
+  80%{ 
+    transform: translateX(5px);
+  }
+  100%{ 
+    transform: translateX(0px);
+  }
+
+}
+
+@keyframes sinal2 {
+
+  0%{ 
+    transform: translateX(-20px);
+  }
+
+  40%{ 
+    transform: translateX(0);
+  }
+  60%{ 
+    transform: translateX(-10px);
+  }
+  80%{ 
+    transform: translateX(-5);
+  }
+  100%{ 
+    transform: translateX(0);
+  }
 
 
+}
 
 
 
 .conts{
+
+
         background-color: #747272;
         bottom: 0;
         position: fixed;
@@ -408,6 +450,8 @@ header h1 {
 
 
 .whatsApp{
+  animation: sinal2 .5s linear forwards ;
+
   display: block;
   width: 50%;
   background-color: rgb(2, 147, 2);
@@ -425,6 +469,8 @@ header h1 {
 
 
 .telefone{
+  animation: sinal .5s linear forwards ;
+
   display: block;
   width: 50%;
 
