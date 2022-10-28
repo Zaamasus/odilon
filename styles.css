@@ -429,9 +429,10 @@ header h1 {
 
 
         background-color: #747272;
-        bottom: 0;
+        bottom: 23px;
         position: fixed;
         width: 99%;
+        height: 40px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -444,8 +445,8 @@ header h1 {
 
 .conts img{
   
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
  
 }
 
@@ -461,6 +462,7 @@ header h1 {
 }
 
 .whatsApp h3{
+  top:-4px;
   color: white;
   background-color: rgb(2, 147, 2);
   font-family: 'Inter', sans-serif;
@@ -484,6 +486,7 @@ header h1 {
   background-color: rgb(7, 162, 7);
 }
 .telefone h3{
+  top:-4px;
   color: white;
   background-color:rgb(7, 162, 7) ;
   font-family: 'Inter', sans-serif;
