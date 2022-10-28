@@ -257,12 +257,18 @@ p {
 /* Fim do top-main  */
 
 .t01 {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin: auto;
+  width: 350px;
   justify-content: center;
   align-items: center;
 }
 
 .t01 h1{
-  width: 25px;
+  margin: auto;
+  color: white;
+  width: 310px;
   font-size: 12px;
 }
 
@@ -328,9 +334,9 @@ header {
 }
 
 header h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 3rem;
-	font-weight: 900;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
 	color: rgb(255, 255, 255);
 }
 
@@ -345,7 +351,7 @@ header h1 {
 .gallery-items {
   width: 77px;
   height: 130px;
-  border: 10px solid #FFF;
+  border: 4px solid #FFF;
   box-shadow: 5px 5px 5px #0006;
   flex-grow: 1;
   transition: transform .5s linear;
