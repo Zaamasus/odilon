@@ -37,15 +37,27 @@ body {
 }
 
 .nav-bar{
-  width: 139px;
+  width: 200px;
   display: flex;
-}
-t
+  align-items: center;
+  justify-content: center;
 
-.nav-bar a{
+}
+ a{
+  margin: auto;
   text-decoration: none;
   color: white;
   font-size: 26px;
+
+}
+
+
+li{
+  background-color: black;
+  padding-bottom: 10px;
+  display: flex;
+  width: 200px;
+  margin: auto;
 
 }
 
@@ -56,7 +68,7 @@ t
 
 .contender-logo img{
 
-  width: 150px;
+  width: 215px;
   height: 150px;
 
 
