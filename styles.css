@@ -28,52 +28,74 @@ body {
 /* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
 .top-main{
   background-color: #747272;
-  width: 100%;
-  height: 145px;
-  display: flex;
+
+  display: block;
 
   margin-bottom: 50px;
   
 }
 
-.nav-bar{
-  width: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.top-sub{
 
-}
- a{
-  margin: auto;
-  text-decoration: none;
-  color: white;
-  font-size: 26px;
+  background-image: url(src/img/moto_08.jpg);
 
-}
-
-
-li{
-  background-color: black;
-  padding-bottom: 10px;
-  display: flex;
-  width: 200px;
-  margin: auto;
-
+  width: 300px;
+  height: 300px;
+ background: no-repeat;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
 }
 
 .contender-logo{
-  width: 50%;
+  width: 100%;
   
 }
 
 .contender-logo img{
 
-  width: 215px;
-  height: 150px;
+  width:46vh;
+  height: 23vh;
+}
 
+.pl{
+  display: flex;
+  border-radius: 35px;
+  padding: 4px;
+  width: 260px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  background-color: rgb(0, 255, 0);
+}
+
+.pl h1{
+  position: relative;
+  margin: auto  ;
+  color: black;
+  font-size: 20px;
 
 }
 
+.p2{
+  display: flex;
+    border-radius: 35px;
+    padding: 4px;
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.p2 h3{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+/* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
 
 .contender0 {
 display: flex;
