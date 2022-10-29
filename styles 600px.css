@@ -109,3 +109,190 @@ body {
 }
 
 /* Fim do top-main */
+
+.wtz {
+
+	width: 300px;
+	height: 300px;
+}
+
+.t01 {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin: auto;
+	width: 350px;
+	justify-content: center;
+	align-items: center;
+}
+
+.t01 h1 {
+	margin: auto;
+	color: white;
+	width: 310px;
+	font-size: 12px;
+}
+
+
+
+
+.contender0 {
+	display: flex;
+}
+
+.contender2 {
+
+	padding-top: 10px;
+	margin: auto;
+}
+
+
+
+
+.contender2 img {
+
+	border: 3px rgb(158, 158, 158) solid;
+	width: 200px;
+
+}
+
+.cotender {
+	margin: auto;
+	height: 20vh;
+	align-self: center;
+
+
+}
+
+button {
+	border-radius: 10px;
+	font-size: 300;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	height: 34px;
+	width: 100px;
+	background-color: rgb(148, 148, 148);
+	border: none;
+
+}
+
+.quems {
+	padding-bottom: 24px;
+}
+
+.valores {
+	padding-bottom: 24px;
+}
+
+.miss {
+	padding-bottom: 24px;
+}
+
+
+
+header {
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+header h1 {
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 50px;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+}
+
+.gallery-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	gap: 2vw;
+	padding: 0 2vw;
+}
+
+.gallery-items {
+	width: 77px;
+	height: 130px;
+	border: 4px solid #FFF;
+	box-shadow: 5px 5px 5px #0006;
+	flex-grow: 1;
+	transition: transform .5s linear;
+
+}
+
+.gallery-items img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.gallery-items:hover {
+	transform: scale(1.3);
+}
+
+
+/* -------------------------------Contatos --------------------- */
+
+.conts {
+	background-color: #747272;
+	bottom: 0;
+	position: fixed;
+	width: 99%;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	border-top: 2px rgb(3, 3, 3) solid;
+	border-left: 2px rgb(3, 3, 3) solid;
+	border-right: 4px rgb(3, 3, 3) solid;
+
+}
+
+
+.conts img {
+
+	width: 50px;
+	height: 50px;
+
+}
+
+
+
+.whatsApp {
+	display: block;
+	width: 50%;
+	background-color: rgb(2, 147, 2);
+
+}
+
+.whatsApp h3 {
+	color: white;
+	background-color: rgb(2, 147, 2);
+	font-family: 'Inter', sans-serif;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 100;
+}
+
+.telefone:hover {
+	width: 45px;
+	background-color: rgb(7, 225, 7);
+
+}
+
+.telefone {
+	display: block;
+	width: 50%;
+
+	background-color: rgb(7, 162, 7);
+}
+
+.telefone svg {
+
+	background-color: rgb(7, 162, 7);
+}
+
+.telefone h3 {
+	color: white;
+	background-color: rgb(7, 162, 7);
+	font-family: 'Inter', sans-serif;
+	font-family: 'Noto Sans Mono', monospace;
+}
