@@ -25,260 +25,40 @@ body {
   height: 145vh;
 }
 
-.top-main {
+/* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
+.top-main{
+  background-color: #747272;
+  width: 100%;
+  height: 145px;
   display: flex;
-  background-color: rgb(99, 97, 97);
 
-  border-bottom: rgb(5, 5, 5) 8px solid;
-  height: 20vh;
- 
-
-
+  margin-bottom: 50px;
+  
 }
 
-.logo {
-  box-shadow: 0 0 0 0 rgb(0 0 0);
-  transform: scale(1);
-  animation: pulse 10s infinite;
-  height: 13vh;
-  width: 45%;
- 
-  border-radius: 21px;
-  display: block;
-
-}
-
-
-.a007 h1 {
-  background-color: rgb(99, 97, 97);
+.nav-bar{
+  width: 139px;
   display: flex;
-  color: rgb(192, 189, 189);
-  font-size: 37px;
-  position: relative;
-
 }
 
-.trav02 {
-  transform: rotate(270deg);
-  width: 83px;
-  height: 9px;
-  background-color: rgb(0, 255, 0);
-  position: relative;
-  margin-left: -28px;
-  border-radius: 2px;
-
-}
-
-
-.pp2 {
-
-
-  margin-top: 25px;
-  margin-right: auto;
-  margin-bottom: 17px;
-  margin-left: auto;
-  width: 203px;
-  display: block;
-  background-color: rgb(99, 97, 97);
-
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 1px
-}
-
-
-
-.pp2c {
-
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s 1;
-
-
-
-  animation-name: mov-icons 1s 1;
-
-  animation-fill-mode: forwards;
-  transform: translateX(100px);
-  animation-timing-function: ease;
-  padding: auto;
-  display: flex;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-
-
-.pp2b {
-
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s 1;
-
-
-
-
-  animation-name: mov-icons 1s 1;
-
-  animation-fill-mode: forwards;
-  transform: translateX(100px);
-  animation-timing-function: ease;
-  display: flex;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-
-.pp2d img {
-  position: absolute;
+.nav-bar a{
+  text-decoration: none;
   color: white;
-  background: rgb(99, 97, 97);
-  border-radius: 4px;
-  mix-blend-mode: color-burn;
-  width: 45px
-}
-
-
-h3 {
-  background-color: rgb(99, 97, 97);
-  color: rgb(0, 0, 0);
-  margin: auto;
-  position: relative;
-  font-size: 107%;
+  font-size: 26px;
 
 }
 
-
-
-.whats1 {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s infinite;
-
-
-
-
-
-
-  max-width: 25px;
-  background-color: rgb(99, 97, 97);
-  position: relative;
+.contender-logo{
+  
 }
 
+.contender-logo img{
 
-.whats2 {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s infinite;
+  width: 150px;
+  height: 150px;
 
-
-  /* animation-name: mov-icons;
-animation-duration: 1s;
-animation-fill-mode: forwards;
-transform: translateY(-50px);
-animation-timing-function: ease; */
-  max-width: 25px;
-  background-color: rgb(99, 97, 97);
-  position: relative;
 
 }
-
-
-
-@keyframes mov-icons {
-
-  from {}
-
-  to {
-    transform: translateY(0);
-
-  }
-}
-
-p {
-  display: none;
-  position: absolute;
-  top: -5px;
-  padding: 5px;
-  border-radius: 3px;
-  left: calc(100% + 2px);
-  content: attr(data-tooltip);
-  white-space: nowrap;
-  background-color: #0095ff;
-  color: White;
-}
-
-.text02 h2 {
-
-
-  font-size: clamp(2px, 8px + 2vw, 46px);
-}
-
-.teste02 {
-  height: 50px;
-  width: 331px;
-  border-radius: 20px;
-  margin: auto;
-  justify-content: center;
-  position: relative;
-  align-items: center;
-  background-color: white;
-  margin: auto;
-}
-
-.nume {
-  margin-left: 24px;
-  display: block;
-  background-color: #000000;
-}
-
-
-.icones {
-  margin: auto;
-  background-color: #000000;
-  display: grid;
-  margin-left: 61px;
-}
-
-
-.teste01 {
-  padding-bottom: 6px;
-  padding-top: 15px;
-  display: flex;
-  background-color: #211F20;
-  width: 348px;
-  margin: auto;
-  position: relative;
-  -ms-transform-origin-x: 130px;
-}
-
-/* Fim do top-main  */
-
-.wtz{
-
-  width: 300px;
-  height: 300px ;
-}
-
-.t01 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin: auto;
-  width: 350px;
-  justify-content: center;
-  align-items: center;
-}
-
-.t01 h1{
-  margin: auto;
-  color: white;
-  width: 310px;
-  font-size: 12px;
-}
-
-
 
 
 .contender0 {
@@ -309,7 +89,7 @@ display: flex;
 
 }
 
-.btn{
+button{
   border-radius: 10px;
   font-size: 300;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -429,7 +209,7 @@ header h1 {
 
 
         background-color: #747272;
-        bottom: 23px;
+        bottom: 24px;
         position: fixed;
         width: 99%;
         height: 40px;
@@ -462,7 +242,8 @@ header h1 {
 }
 
 .whatsApp h3{
-  top:-4px;
+  bottom: 23px;
+  position: relative;
   color: white;
   background-color: rgb(2, 147, 2);
   font-family: 'Inter', sans-serif;
@@ -486,7 +267,8 @@ header h1 {
   background-color: rgb(7, 162, 7);
 }
 .telefone h3{
-  top:-4px;
+  position:relative ;
+  bottom: 23px;
   color: white;
   background-color:rgb(7, 162, 7) ;
   font-family: 'Inter', sans-serif;
