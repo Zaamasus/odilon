@@ -1,5 +1,5 @@
 body {
-	width: 900px;
+	width: 1000px;
 	margin: auto;
 	background-color: #484444;
 	justify-content: center;
@@ -14,7 +14,7 @@ body {
 
 
 .top-sub {
-	height: 12vh;
+	height: 22vh;
 	margin: 0px auto;
 	width: 100%;
 	background-color: #747272;
@@ -52,9 +52,10 @@ body {
 }
 
 .contender-logo img {
-	margin: auto;
+	margin: 0px 327px;
 	width: 300px;
 	position: relative;
+      
 }
 
 /* ------------------------------------FIM DO CABECALHO ---------------------------*/
@@ -110,11 +111,7 @@ nav {
 	transition: 0.3s;
 }
 
-@media (max-width: 999px) {
-	body {
-		overflow-x: hidden;
-	}
-/* 
+/*  */
 	.nav-list {
 		position: absolute;
 		top: 8vh;
@@ -134,37 +131,13 @@ nav {
 		opacity: 0;
 	} */
 
-	/* .mobile-menu {
+	.mobile-menu {
 		display: block;
 	}
-} */
+
 
 .nav-list.active {
 	transform: translateX(0);
-}
-
-@keyframes navLinkFade {
-	from {
-		opacity: 0;
-		transform: translateX(50px);
-	}
-
-	to {
-		opacity: 1;
-		transform: translateX(0);
-	}
-}
-
-.mobile-menu.active .line1 {
-	transform: rotate(-45deg) translate(-8px, 8px);
-}
-
-.mobile-menu.active .line2 {
-	opacity: 0;
-}
-
-.mobile-menu.active .line3 {
-	transform: rotate(45deg) translate(-5px, -7px);
 }
 
 
@@ -322,8 +295,8 @@ header h1 {
 
 /* ------------------------------------Contato fixado ---------------------------*/
 .conts {
-
-	height: 5vh;
+	display: none;
+	/* height: 5vh;
 	background-color: #747272;
 	bottom: 10%;
 	position: fixed;
@@ -333,11 +306,11 @@ header h1 {
 	justify-content: center;
 	border-top: 2px rgb(3, 3, 3) solid;
 	border-left: 2px rgb(3, 3, 3) solid;
-	border-right: 4px rgb(3, 3, 3) solid;
+	border-right: 4px rgb(3, 3, 3) solid; */
 
 }
 
-
+/* 
 .conts img {
 
 	width: 100px;
@@ -387,4 +360,4 @@ header h1 {
 	font-family: 'Inter', sans-serif;
 	font-family: 'Noto Sans Mono', monospace;
 	margin: 0;
-}}
+}} */
