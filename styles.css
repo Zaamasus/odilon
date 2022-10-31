@@ -25,261 +25,77 @@ body {
   height: 145vh;
 }
 
-.top-main {
-  display: flex;
-  background-color: rgb(99, 97, 97);
+/* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
+.top-main{
+  background-color: #747272;
 
-  border-bottom: rgb(5, 5, 5) 8px solid;
-  height: 20vh;
- 
-
-
-}
-
-.logo {
-  box-shadow: 0 0 0 0 rgb(0 0 0);
-  transform: scale(1);
-  animation: pulse 10s infinite;
-  height: 13vh;
-  width: 45%;
- 
-  border-radius: 21px;
   display: block;
 
+  margin-bottom: 50px;
+  
 }
 
+.top-sub{
 
-.a007 h1 {
-  background-color: rgb(99, 97, 97);
-  display: flex;
-  color: rgb(192, 189, 189);
-  font-size: 37px;
-  position: relative;
-
-}
-
-.trav02 {
-  transform: rotate(270deg);
-  width: 83px;
-  height: 9px;
-  background-color: rgb(0, 255, 0);
-  position: relative;
-  margin-left: -28px;
-  border-radius: 2px;
-
-}
-
-
-.pp2 {
-
-
-  margin-top: 25px;
-  margin-right: auto;
-  margin-bottom: 17px;
-  margin-left: auto;
-  width: 203px;
-  display: block;
-  background-color: rgb(99, 97, 97);
-
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 1px
-}
-
-
-
-.pp2c {
-
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s 1;
-
-
-
-  animation-name: mov-icons 1s 1;
-
-  animation-fill-mode: forwards;
-  transform: translateX(100px);
-  animation-timing-function: ease;
-  padding: auto;
-  display: flex;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-
-
-.pp2b {
-
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s 1;
-
-
-
-
-  animation-name: mov-icons 1s 1;
-
-  animation-fill-mode: forwards;
-  transform: translateX(100px);
-  animation-timing-function: ease;
-  display: flex;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-  justify-content: center;
-  flex-direction: row-reverse;
-}
-
-.pp2d img {
-  position: absolute;
-  color: white;
-  background: rgb(99, 97, 97);
-  border-radius: 4px;
-  mix-blend-mode: color-burn;
-  width: 45px
-}
-
-
-h3 {
-  background-color: rgb(99, 97, 97);
-  color: rgb(0, 0, 0);
-  margin: auto;
-  position: relative;
-  font-size: 107%;
-
-}
-
-
-
-.whats1 {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s infinite;
-
-
-
-
-
-
-  max-width: 25px;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-}
-
-
-.whats2 {
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, 1);
-  transform: scale(1);
-  animation: pulse 3s infinite;
-
-
-  /* animation-name: mov-icons;
-animation-duration: 1s;
-animation-fill-mode: forwards;
-transform: translateY(-50px);
-animation-timing-function: ease; */
-  max-width: 25px;
-  background-color: rgb(99, 97, 97);
-  position: relative;
-
-}
-
-
-
-@keyframes mov-icons {
-
-  from {}
-
-  to {
-    transform: translateY(0);
-
-  }
-}
-
-p {
-  display: none;
-  position: absolute;
-  top: -5px;
-  padding: 5px;
-  border-radius: 3px;
-  left: calc(100% + 2px);
-  content: attr(data-tooltip);
-  white-space: nowrap;
-  background-color: #0095ff;
-  color: White;
-}
-
-.text02 h2 {
-
-
-  font-size: clamp(2px, 8px + 2vw, 46px);
-}
-
-.teste02 {
-  height: 50px;
-  width: 331px;
-  border-radius: 20px;
-  margin: auto;
-  justify-content: center;
-  position: relative;
-  align-items: center;
-  background-color: white;
-  margin: auto;
-}
-
-.nume {
-  margin-left: 24px;
-  display: block;
-  background-color: #000000;
-}
-
-
-.icones {
-  margin: auto;
-  background-color: #000000;
-  display: grid;
-  margin-left: 61px;
-}
-
-
-.teste01 {
-  padding-bottom: 6px;
-  padding-top: 15px;
-  display: flex;
-  background-color: #211F20;
-  width: 348px;
-  margin: auto;
-  position: relative;
-  -ms-transform-origin-x: 130px;
-}
-
-/* Fim do top-main  */
-
-.wtz{
+  background-image: url(src/img/moto_08.jpg);
 
   width: 300px;
-  height: 300px ;
+  height: 300px;
+ background: no-repeat;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
 }
 
-.t01 {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  margin: auto;
-  width: 350px;
+.contender-logo{
+  width: 100%;
+  
+}
+
+.contender-logo img{
+
+  width:46vh;
+  height: 23vh;
+}
+
+.pl{
+  display: flex;
+  border-radius: 35px;
+  padding: 4px;
+  width: 260px;
   justify-content: center;
   align-items: center;
-}
-
-.t01 h1{
   margin: auto;
-  color: white;
-  width: 310px;
-  font-size: 12px;
+  position: relative;
+  background-color: rgb(0, 255, 0);
 }
 
+.pl h1{
+  position: relative;
+  margin: auto  ;
+  color: black;
+  font-size: 20px;
 
+}
 
+.p2{
+  display: flex;
+    border-radius: 35px;
+    padding: 4px;
+    width: 370px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+}
+
+.p2 h3{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+/* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
 
 .contender0 {
 display: flex;
@@ -309,7 +125,7 @@ display: flex;
 
 }
 
-button {
+button{
   border-radius: 10px;
   font-size: 300;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -373,4 +189,117 @@ header h1 {
 
 .gallery-items:hover {
 	transform: scale(1.3);
+}
+
+
+/* -------------------------------Contatos --------------------- */
+
+@keyframes sinal{
+
+  0%{ 
+    transform: translateX(20px);
+  }
+
+  40%{ 
+    transform: translateX(0px);
+  }
+  60%{ 
+    transform: translateX(10px);
+  }
+  80%{ 
+    transform: translateX(5px);
+  }
+  100%{ 
+    transform: translateX(0px);
+  }
+
+}
+
+@keyframes sinal2 {
+
+  0%{ 
+    transform: translateX(-20px);
+  }
+
+  40%{ 
+    transform: translateX(0);
+  }
+  60%{ 
+    transform: translateX(-10px);
+  }
+  80%{ 
+    transform: translateX(-5);
+  }
+  100%{ 
+    transform: translateX(0);
+  }
+
+
+}
+
+
+
+.conts{
+
+
+        background-color: #747272;
+        bottom: 0;
+        position: fixed;
+        width: 99%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        border-top: 2px rgb(3, 3, 3) solid;
+        border-left: 2px rgb(3, 3, 3) solid;
+        border-right: 4px rgb(3, 3, 3) solid;
+
+}
+
+
+.conts img{
+  
+  width: 50px;
+  height: 50px;
+ 
+}
+
+
+
+.whatsApp{
+  animation: sinal2 .5s linear forwards ;
+
+  display: block;
+  width: 50%;
+  background-color: rgb(2, 147, 2);
+
+}
+
+.whatsApp h3{
+  color: white;
+  background-color: rgb(2, 147, 2);
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
+  font-size: 100;
+}
+
+
+
+.telefone{
+  animation: sinal .5s linear forwards ;
+
+  display: block;
+  width: 50%;
+
+  background-color: rgb(7, 162, 7);
+}
+
+.telefone svg{
+
+  background-color: rgb(7, 162, 7);
+}
+.telefone h3{
+  color: white;
+  background-color:rgb(7, 162, 7) ;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans Mono', monospace;
 }
