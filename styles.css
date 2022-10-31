@@ -309,7 +309,7 @@ display: flex;
 
 }
 
-.btn{
+button {
   border-radius: 10px;
   font-size: 300;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -319,8 +319,6 @@ display: flex;
   border: none;
 
 }
-
-
 
 .quems{
   padding-bottom: 24px;
@@ -375,117 +373,4 @@ header h1 {
 
 .gallery-items:hover {
 	transform: scale(1.3);
-}
-
-
-/* -------------------------------Contatos --------------------- */
-
-@keyframes sinal{
-
-  0%{ 
-    transform: translateX(20px);
-  }
-
-  40%{ 
-    transform: translateX(0px);
-  }
-  60%{ 
-    transform: translateX(10px);
-  }
-  80%{ 
-    transform: translateX(5px);
-  }
-  100%{ 
-    transform: translateX(0px);
-  }
-
-}
-
-@keyframes sinal2 {
-
-  0%{ 
-    transform: translateX(-20px);
-  }
-
-  40%{ 
-    transform: translateX(0);
-  }
-  60%{ 
-    transform: translateX(-10px);
-  }
-  80%{ 
-    transform: translateX(-5);
-  }
-  100%{ 
-    transform: translateX(0);
-  }
-
-
-}
-
-
-
-.conts{
-
-
-        background-color: #747272;
-        bottom: 0;
-        position: fixed;
-        width: 99%;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        border-top: 2px rgb(3, 3, 3) solid;
-        border-left: 2px rgb(3, 3, 3) solid;
-        border-right: 4px rgb(3, 3, 3) solid;
-
-}
-
-
-.conts img{
-  
-  width: 50px;
-  height: 50px;
- 
-}
-
-
-
-.whatsApp{
-  animation: sinal2 .5s linear forwards ;
-
-  display: block;
-  width: 50%;
-  background-color: rgb(2, 147, 2);
-
-}
-
-.whatsApp h3{
-  color: white;
-  background-color: rgb(2, 147, 2);
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans Mono', monospace;
-  font-size: 100;
-}
-
-
-
-.telefone{
-  animation: sinal .5s linear forwards ;
-
-  display: block;
-  width: 50%;
-
-  background-color: rgb(7, 162, 7);
-}
-
-.telefone svg{
-
-  background-color: rgb(7, 162, 7);
-}
-.telefone h3{
-  color: white;
-  background-color:rgb(7, 162, 7) ;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans Mono', monospace;
 }
