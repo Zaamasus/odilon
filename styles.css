@@ -44,11 +44,49 @@ body {
 
 }
 
+/* -------------------------------------------INICIO MENU--------------- */
+.menu {
+	display: block;
+	width: 900x;
+	height: 40px;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+}
+
+a:hover {
+	opacity: 0.7;
+} */
+
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+	background: #030303;
+} */
+
+
+
+/* -------------------------------------------INICIO MENU--------------- */
+
 .contender-logo{
   width: 100%;
   
 }
 
+.cony{
+  display: none;
+  
+}
+.telefone{
+  display: none ;
+}
 .contender-logo img{
 
   width:46vh;
@@ -131,8 +169,6 @@ button{
   border: none;
 
 }
-
-
 
 .quems{
   padding-bottom: 24px;
@@ -241,10 +277,9 @@ header h1 {
 
 
         background-color: #747272;
-        bottom: 24px;
+        bottom: 0;
         position: fixed;
         width: 99%;
-        height: 40px;
         text-align: center;
         display: flex;
         justify-content: center;
@@ -257,8 +292,8 @@ header h1 {
 
 .conts img{
   
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
  
 }
 
@@ -274,8 +309,6 @@ header h1 {
 }
 
 .whatsApp h3{
-  bottom: 23px;
-  position: relative;
   color: white;
   background-color: rgb(2, 147, 2);
   font-family: 'Inter', sans-serif;
@@ -299,8 +332,6 @@ header h1 {
   background-color: rgb(7, 162, 7);
 }
 .telefone h3{
-  position:relative ;
-  bottom: 23px;
   color: white;
   background-color:rgb(7, 162, 7) ;
   font-family: 'Inter', sans-serif;
