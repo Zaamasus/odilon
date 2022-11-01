@@ -93,7 +93,7 @@ body{
   margin-bottom: 10px;
   margin-top: 10px;
   /* border-top: rgb(235, 31, 31) 4px solid; */
-  border-bottom: rgb(230, 31, 31) 4px solid;
+  border-bottom: #747272 3px solid;
   border-radius: 4px;
 }
 
@@ -134,7 +134,7 @@ header {
   display: flex;
   width: 100%;
   background-color: #000000;
-  border-bottom: 3px rgb(230, 31, 31) solid;
+  border-bottom: 3px #747272 solid;
   border-radius: 3px;
   /* border-top: 4px rgb(230, 31, 31) solid; */
 
@@ -178,6 +178,7 @@ li{
 
 /* --------------------------FIM DO MENU---------------------------------------------------------- */
 .contender0 {
+  height: 45vh;
 display: flex;
 }
 
@@ -200,7 +201,7 @@ display: flex;
 .cotender {
   display: flex;
   margin: auto;
-  height: 20vh;
+  height: 45vh;
   align-self: center;
  
 
@@ -210,7 +211,7 @@ display: flex;
 .todal{
   position: relative;
   display: block;
-  margin: 10px;
+  margin-top: 130px;
 
 }
 #ativar {
@@ -384,8 +385,13 @@ display: flex;
   padding-bottom: 24px;
 }
 
+ /* -----------------------------------------------INICIO GALERIA */
 
 
+
+
+ 
+/* -----------------------------------------------FIM GALERIA */
 
 
 

@@ -1,35 +1,36 @@
 @keyframes pulse {
-          0% {
-                    transform: scale(0.95);
-                    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
-          }
+        0% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(8, 8, 8, 0.7);
+        }
 
-          70% {
-                    transform: scale(1);
-                    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
-          }
+        70% {
+                transform: scale(1);
+                box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        }
 
-          100% {
-                    transform: scale(0.95);
-                    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-          }
+        100% {
+                transform: scale(0.95);
+                box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        }
 }
 
+body {
+        background-color: #000000;
+        margin: 0px auto;
+        justify-content: center;
+        position: relative;
+        display: flex;
+        height: 2000px;
 
-body {  
-          position: relative;
-          margin: auto;
-          display: block;
-          width: 800px;
-          height: 1000px;
-          background-color: rgb(0, 82, 140)
 }
+
 
 /* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
 .top-main {
-          background-color: #747272;
+        background-color: #747272;
 
-          display: flex;
+        display: block;
 
 
 
@@ -37,87 +38,90 @@ body {
 
 .top-sub {
 
-          background-color: #000000;
-          height: 300px;
-          background-size: 45px;
-          background: no-repeat;
-          
+        background-image: url(src/img/moto_08.jpg);
+        height: 45px;
+        background-size: 45px;
+        background: no-repeat;
 
 }
 
 .contender-logo {
-          display: flex;
-          background-color: #000000;
-          width: 50%;
+        background-color: #000000;
+        width: 100%;
+        margin-bottom: 24px;
 
 }
 
 .contender-logo img {
-          
-          width: 69%;
-          height: 23vh;
-          position: relative;
-          display: flex;
-    
-}
 
-.np{
-          background: blue;
-          display: flex;
-          width: 50%;
+        width: 100%;
+        height: 23vh;
+        display: block;
+        margin: auto;
 }
 
 
-.pl {     
+.np {
+        position: relative;
+        display: none;
+}
 
-          display: flex;
-          background-color: #000000;
-          padding-bottom: 4px;
-          width: 100%;
-          justify-content: center;
-          align-items: center;
-          margin: 23px auto;
-          position: relative;
-        
+.pl {
+        display: flex;
+
+
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        position: relative;
+
 }
 
 .pl h1 {
-          border: #000000 1px solid;
-          position: relative;
-          margin: auto;
-          color: rgb(255, 255, 255);
-          font-size: 20px;
 
+        border: 1px solid black;
+        position: relative;
+        margin: auto;
+        color: black;
+        font-size: 20px;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 15px;
 
 }
 
-.p2 {
-          height: 5vh;
-          display: flex;
-          border-radius: 35px;
-          padding: 4px;
-          width: 370px;
-          justify-content: center;
-          align-items: center;
-          margin: 40px auto;
-          position: relative;
-}
-
-.p2 h3 {
-          color: rgb(255, 255, 255);
-          font-size: 15px;
-          margin-bottom: -50px;
-}
-
-.video-a{
-          margin-top: 25px;
-          background-color: #000000;
+.video-a {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        /* border-top: rgb(235, 31, 31) 4px solid; */
+        border-bottom: rgb(230, 31, 31) 4px solid;
+        border-radius: 4px;
 }
 
 .video-a video {
-          background-color: #000000;
-          margin-top: 35px;
-          margin-bottom: 20px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+}
+
+.p2 {
+        width: 100%;
+        height: 4vh;
+        position: relative;
+
+}
+
+.p2 h3 {
+        color: rgb(255, 255, 255);
+        font-size: 15px;
+
+}
+
+.video-a video {
+
+        position: relative;
+        margin-top: 35px;
+        margin-bottom: 20px;
 }
 
 /* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
@@ -126,62 +130,64 @@ body {
 
 
 header {
-
-          margin-top: 10px;
-          margin-bottom: 10px;
-          height: 40px;
-          display: flex;
-          width: 100%;
-          background-color: #000000;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 40px;
+        display: flex;
+        width: 100%;
+        background-color: #000000;
+        border-bottom: 3px rgb(230, 31, 31) solid;
+        border-radius: 3px;
+        /* border-top: 4px rgb(230, 31, 31) solid; */
 
 
 }
 
 nav {
-          margin: auto;
-          display: flex;
+        margin: auto;
+        display: flex;
 
 }
 
 a {
-          border-radius: 14px;
-          font-size: 19px;
-          color: white;
-          text-decoration: none;
+        border-radius: 14px;
+        font-size: 19px;
+        color: white;
+        text-decoration: none;
 }
 
 a:hover {
-          border-radius: 14px;
-          padding: 5px;
-          background-color: #FFF;
-          color: black;
+        border-radius: 14px;
+        padding: 5px;
+        background-color: #FFF;
+        color: black;
 }
 
 li:hover {
-          background-color: #FFF;
-          color: black;
-          border-radius: 14px;
+        background-color: #FFF;
+        color: black;
+        border-radius: 14px;
 }
 
 
 li {
-          margin: auto;
-          border-radius: 14px;
-          padding: 5px;
-          margin-right: 20px;
-          list-style: none;
+        margin: auto;
+        border-radius: 14px;
+        padding: 5px;
+        margin-right: 20px;
+        list-style: none;
 
 }
 
 /* --------------------------FIM DO MENU---------------------------------------------------------- */
 .contender0 {
-          display: flex;
+        display: flex;
 }
 
 .contender2 {
 
-          padding-top: 10px;
-          margin: auto;
+        padding-top: 10px;
+        margin: auto;
 }
 
 
@@ -189,140 +195,256 @@ li {
 
 .contender2 img {
 
-          border: 3px rgb(158, 158, 158) solid;
-          width: 200px;
+        border: 3px rgb(158, 158, 158) solid;
+        width: 200px;
 
 }
 
 .cotender {
-          margin: auto;
-          height: 20vh;
-          align-self: center;
+        display: flex;
+        margin: auto;
+        height: 20vh;
+        align-self: center;
 
 
 }
 
-button {
-          border-radius: 10px;
-          font-size: 300;
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          height: 34px;
-          width: 100px;
-          background-color: rgb(148, 148, 148);
-          border: none;
+/* -------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
+
+.todal {
+        position: relative;
+        display: block;
+        margin: 10px;
+
+}
+
+#ativar {
+        height: 28px;
+        width: 115px;
+        border-radius: 9px;
+        border: none;
+        margin-bottom: 25px;
 
 }
 
 
+
+#modal1 h1 {
+        color: white;
+        font-size: 24px;
+        font-family: sans-serif;
+
+}
+
+#modal1 label {
+
+        font-size: 24px;
+        display: block;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+        margin-top: 10px;
+}
+
+#modal1 input {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 0.5rem;
+        font-size: 1rem;
+        background: #f7f7f7;
+}
+
+#modal1 button {
+        margin-top: 20px;
+        display: block;
+        font-family: sans-serif;
+        font-size: 1rem;
+        padding: 0.6rem 2rem;
+        border: none;
+        background: #ffb801;
+        border-radius: 4px;
+        color: #402d00;
+}
+
+#modal1 {
+        position: relative;
+        height: 40vh;
+        padding: 30px;
+        background: rgb(0, 0, 0);
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+        max-width: 50%;
+        margin: 10px;
+        opacity: 0;
+        transform: translateX(-20px);
+}
+
+#modal1.animar1 {
+        animation-name: slide;
+        animation-duration: 0.3s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+        /* animation: slide .3s forwards; */
+}
+
+@keyframes slide {
+        to {
+                transform: translateX(0);
+                opacity: 1;
+        }
+}
+
+/* -----------------------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------------- INICIO MODAL2---------------------------------------------------------------------------- */
+
+
+#ativar2 {
+        height: 28px;
+        width: 115px;
+        border-radius: 9px;
+        border: none;
+        margin-bottom: 25px;
+
+}
+
+#modal2 h1 {
+        color: white;
+        font-size: 24px;
+        font-family: sans-serif;
+
+}
+
+#modal2 label {
+
+        font-size: 24px;
+        display: block;
+        font-family: sans-serif;
+        margin-bottom: 5px;
+        margin-top: 10px;
+}
+
+#modal2 input {
+        width: 100%;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 0.5rem;
+        font-size: 1rem;
+        background: #f7f7f7;
+}
+
+#modal2 button {
+        margin-top: 20px;
+        display: block;
+        font-family: sans-serif;
+        font-size: 1rem;
+        padding: 0.6rem 2rem;
+        border: none;
+        background: #ffb801;
+        border-radius: 4px;
+        color: #402d00;
+}
+
+#modal2 {
+        position: absolute;
+        height: 40vh;
+        padding: 30px;
+        background: rgb(247, 0, 0);
+        border-radius: 4px;
+        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+        max-width: 50%;
+        margin: 10px;
+        opacity: 0;
+        transform: translateX(-20px);
+}
+
+#modal2.animar {
+        animation-name: slide;
+        animation-duration: 0.3s;
+        animation-timing-function: ease;
+        animation-delay: 0s;
+        animation-iteration-count: 1;
+        animation-direction: normal;
+        animation-fill-mode: forwards;
+        animation-play-state: running;
+        /* animation: slide .3s forwards; */
+}
+
+
+
+/* -----------------------------------------------------FIM MODAL1-----------------------------------------------------------------------------------------------*/
 
 .quems {
-          padding-bottom: 24px;
+        padding-bottom: 24px;
 }
 
 .valores {
-          padding-bottom: 24px;
+        padding-bottom: 24px;
 }
 
 .miss {
-          padding-bottom: 24px;
+        padding-bottom: 24px;
 }
 
 
 
-/* header {
-                  height: 150px;
-                  display: flex;
-                  justify-content: center;
-                  align-items: center;
-        } */
 
-#gale {
-          height: 100vh;
-}
 
-header h1 {
-          font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-          font-size: 50px;
-          font-weight: 300;
-          color: rgb(255, 255, 255);
-}
-
-.gallery-container {
-          display: flex;
-          flex-wrap: wrap;
-          justify-content: space-evenly;
-          gap: 2vw;
-          padding: 0 2vw;
-}
-
-.gallery-items {
-          width: 77px;
-          height: 130px;
-          border: 4px solid #FFF;
-          box-shadow: 5px 5px 5px #0006;
-          flex-grow: 1;
-          transition: transform .5s linear;
-
-}
-
-.gallery-items img {
-          width: 100%;
-          height: 100%;
-          object-fit: cover;
-}
-
-.gallery-items:hover {
-          transform: scale(1.3);
-}
 
 
 /* -------------------------------Contatos --------------------- */
 
 @keyframes sinal {
 
-          0% {
-                    transform: translateX(20px);
-          }
+        0% {
+                transform: translateX(20px);
+        }
 
-          40% {
-                    transform: translateX(0px);
-          }
+        40% {
+                transform: translateX(0px);
+        }
 
-          60% {
-                    transform: translateX(10px);
-          }
+        60% {
+                transform: translateX(10px);
+        }
 
-          80% {
-                    transform: translateX(5px);
-          }
+        80% {
+                transform: translateX(5px);
+        }
 
-          100% {
-                    transform: translateX(0px);
-          }
+        100% {
+                transform: translateX(0px);
+        }
 
 }
 
 @keyframes sinal2 {
 
-          0% {
-                    transform: translateX(-20px);
-          }
+        0% {
+                transform: translateX(-20px);
+        }
 
-          40% {
-                    transform: translateX(0);
-          }
+        40% {
+                transform: translateX(0);
+        }
 
-          60% {
-                    transform: translateX(-10px);
-          }
+        60% {
+                transform: translateX(-10px);
+        }
 
-          80% {
-                    transform: translateX(-5);
-          }
+        80% {
+                transform: translateX(-5);
+        }
 
-          100% {
-                    transform: translateX(0);
-          }
+        100% {
+                transform: translateX(0);
+        }
 
 
 }
@@ -330,21 +452,21 @@ header h1 {
 
 
 .conts {
-          position: absolute;
-          display: flex;
-          margin: auto;
-          width: 100%;
-         
+        width: 100%;
+        display: flex;
+        overflow: auto;
+        position: fixed;
+        display: none;
 }
 
 
 .conts img {
-         
-          width: 50px;
-          height: 50px;
 
-
-         
+        position: relative;
+        width: 40px;
+        height: 40px;
+        margin: auto;
+        display: block;
 
 
 }
@@ -352,28 +474,43 @@ header h1 {
 
 
 .whatsApp {
-          width: 50%;
+        background-color: rgb(10, 152, 10);
+        justify-content: center;
+        animation: sinal2 .5s linear forwards;
+        width: 49%;
 
-       
 
 }
 
 .whatsApp h3 {
-  
+        padding-top: 5px;
+        margin: auto;
+        width: 90px;
+        background-color: rgb(10, 152, 10);
+        display: block;
 
 }
 
 
 
-.telefon{
-          width: 100%;
+.telefone {
+        background-color: green;
+        justify-content: center;
+        animation: sinal2 .5s linear forwards;
+        width: 49%;
 }
-
 
 .telefone svg {
-      
+        display: block;
+        position: relative;
+        margin: auto;
+        background-color: green;
 }
 
 .telefone h3 {
-       
+        padding-top: 5px;
+        margin: auto;
+        width: 140px;
+        background-color: green;
+        display: block;
 }
