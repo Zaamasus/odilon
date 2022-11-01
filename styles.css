@@ -1,7 +1,7 @@
 @keyframes pulse {
   0% {
     transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 0 0 rgba(8, 8, 8, 0.7);
   }
 
   70% {
@@ -15,15 +15,16 @@
   }
 }
 
-
-body {
-  margin: 0%;
-  padding: 0;
-  text-decoration: none;
-  background-color: rgb(0, 0, 0);
-  max-width: 600px;
-  height: 145vh;
+body{
+  background-color: #000000;
+  margin: 0px  auto;
+  justify-content: center;
+  position: relative;
+  display: flex;
+  height: 2000px;
+ 
 }
+
 
 /* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
 .top-main{
@@ -38,65 +39,87 @@ body {
 .top-sub{
 
   background-image: url(src/img/moto_08.jpg);
-  height: 300px ;
+  height: 45px ;
   background-size: 45px  ;
   background: no-repeat;
 
 }
 
 .contender-logo{
+  background-color: #000000;
   width: 100%;
+  margin-bottom: 24px;
   
 }
 
 .contender-logo img{
 
-  width:49vh;
+  width: 100%;
   height: 23vh;
+  display: block;
+  margin: auto; 
 }
 
+
+.np{
+  position: relative;
+  display: none;
+}
 .pl{
   display: flex;
-  border-radius: 35px;
-  padding: 4px;
-  width: 260px;
+
+ 
+  width: 100%;
   justify-content: center;
   align-items: center;
   margin: auto;
   position: relative;
-  background-color: rgb(0, 255, 0);
+
 }
 
 .pl h1{
+
+  border: 1px solid black;
   position: relative;
-  margin: auto  ;
+  margin: auto;
   color: black;
   font-size: 20px;
-
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 15px;
 
 }
-
-.p2{
-  height: 5vh;
-  display: flex;
-    border-radius: 35px;
-    padding: 4px;
-    width: 370px;
-    justify-content: center;
-    align-items: center;
-    margin:40px auto;
-    position: relative;
-}
-
-.p2 h3{
-  color: rgb(255, 255, 255);
-  font-size: 15px;
-  margin-bottom: -50px;
+.video-a{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  /* border-top: rgb(235, 31, 31) 4px solid; */
+  border-bottom: rgb(230, 31, 31) 4px solid;
+  border-radius: 4px;
 }
 
 .video-a video{
   margin-top: 35px;
   margin-bottom: 20px ;
+}
+
+.p2{
+  width: 100%;
+  height: 4vh;
+  position: relative;
+
+}
+
+.p2 h3{
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  
+}
+
+.video-a video{
+  
+position: relative;
+margin-top: 35px;
+margin-bottom: 20px;
 }
 
 /* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
@@ -105,13 +128,15 @@ body {
 
 
 header {
-  
-  margin-top: 10px ;
+  margin-top: 10px;
   margin-bottom: 10px;
   height: 40px;
   display: flex;
   width: 100%;
   background-color: #000000;
+  border-bottom: 3px rgb(230, 31, 31) solid;
+  border-radius: 3px;
+  /* border-top: 4px rgb(230, 31, 31) solid; */
 
 
 }
@@ -143,6 +168,7 @@ li:hover{
 
 
 li{
+  margin: auto;
   border-radius: 14px;
   padding: 5px;
   margin-right: 20px;
@@ -172,25 +198,180 @@ display: flex;
 }
 
 .cotender {
+  display: flex;
   margin: auto;
   height: 20vh;
   align-self: center;
  
 
 }
+/* -------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
 
-button{
-  border-radius: 10px;
-  font-size: 300;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  height: 34px;
-  width: 100px;
-  background-color: rgb(148, 148, 148);
+.todal{
+  position: relative;
+  display: block;
+  margin: 10px;
+
+}
+#ativar {
+  height: 28px;
+  width: 115px;
+  border-radius: 9px;
   border: none;
+  margin-bottom: 25px;
 
 }
 
 
+
+#modal1 h1 {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+ 
+}
+
+#modal1 label {
+  
+  font-size: 24px;
+  display: block;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#modal1 input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #f7f7f7;
+}
+
+#modal1 button {
+  margin-top: 20px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  border: none;
+  background: #ffb801;
+  border-radius: 4px;
+  color: #402d00;
+}
+
+#modal1 {
+  position: relative;
+  height: 40vh;
+  padding: 30px;
+  background: rgb(0, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  max-width: 50%;
+  margin: 10px;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+#modal1.animar1 {
+  animation-name: slide;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  /* animation: slide .3s forwards; */
+}
+
+@keyframes slide {
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* -----------------------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
+
+
+
+/* --------------------------------------------------------- INICIO MODAL2---------------------------------------------------------------------------- */
+
+
+#ativar2 {
+  height: 28px;
+  width: 115px;
+  border-radius: 9px;
+  border: none;
+  margin-bottom: 25px;
+
+}
+#modal2 h1 {
+  color: white;
+  font-size: 24px;
+  font-family: sans-serif;
+ 
+}
+
+#modal2 label {
+  
+  font-size: 24px;
+  display: block;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+#modal2 input {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background: #f7f7f7;
+}
+
+#modal2 button {
+  margin-top: 20px;
+  display: block;
+  font-family: sans-serif;
+  font-size: 1rem;
+  padding: 0.6rem 2rem;
+  border: none;
+  background: #ffb801;
+  border-radius: 4px;
+  color: #402d00;
+}
+
+#modal2 {
+  position: absolute;
+  height: 40vh;
+  padding: 30px;
+  background: rgb(247, 0, 0);
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  max-width: 50%;
+  margin: 10px;
+  opacity: 0;
+  transform: translateX(-20px);
+}
+
+#modal2.animar {
+  animation-name: slide;
+  animation-duration: 0.3s;
+  animation-timing-function: ease;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+  animation-play-state: running;
+  /* animation: slide .3s forwards; */
+}
+
+
+
+/* -----------------------------------------------------FIM MODAL1-----------------------------------------------------------------------------------------------*/
 
 .quems{
   padding-bottom: 24px;
@@ -205,50 +386,8 @@ button{
 
 
 
-/* header {
-	height: 150px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-} */
 
-#gale{
-  height: 100vh;
-}
-header h1 {
-	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	font-size: 50px;
-	font-weight: 300;
-	color: rgb(255, 255, 255);
-}
 
-.gallery-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	gap: 2vw;
-	padding: 0 2vw;
-}
-
-.gallery-items {
-  width: 77px;
-  height: 130px;
-  border: 4px solid #FFF;
-  box-shadow: 5px 5px 5px #0006;
-  flex-grow: 1;
-  transition: transform .5s linear;
-
-}
-
-.gallery-items img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.gallery-items:hover {
-	transform: scale(1.3);
-}
 
 
 /* -------------------------------Contatos --------------------- */
@@ -299,35 +438,42 @@ header h1 {
 
 
 .conts{   
-          justify-content: center;
           width: 100%;
           display: flex;    
-          margin: auto;
+          overflow: auto;
+          position: fixed;
+          display: none;
 }
 
 
 .conts img{
 
+  position: relative;
   width: 40px;
   height: 40px;
+  margin: auto;
+  display: block;
+
  
 }
 
 
 
 .whatsApp{
-  background-color: green;
+  background-color: rgb(10, 152, 10);
   justify-content: center;
   animation: sinal2 .5s linear forwards;
-  width: 140px;
+  width: 49%;
  
 
 }
 
 .whatsApp h3{
-  margin: 0;
+  padding-top: 5px;
+  margin: auto;
   width: 90px;
-  background-color: green;
+  background-color:  rgb(10, 152, 10);
+  display: block;
   
 }
 
@@ -337,16 +483,19 @@ header h1 {
   background-color: green;
   justify-content: center;
   animation: sinal2 .5s linear forwards;
-  width: 140px;
+  width: 49%;
 }
 
 .telefone svg{
-
-  background-color: rgb(7, 162, 7);
+  display: block;
+  position: relative;
+  margin: auto;
+  background-color:green;
 }
 .telefone h3{
-  margin: 0;
-  width: 120px;
-
-  background-color:rgb(7, 162, 7) ;
+  padding-top: 5px;
+  margin: auto;
+  width: 140px;
+  background-color: green;
+  display: block;
 }
