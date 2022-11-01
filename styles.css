@@ -73,6 +73,7 @@ body {
   color: black;
   font-size: 20px;
 
+
 }
 
 .p2{
@@ -83,13 +84,19 @@ body {
     width: 370px;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin:40px auto;
     position: relative;
 }
 
 .p2 h3{
   color: rgb(255, 255, 255);
   font-size: 15px;
+  margin-bottom: -50px;
+}
+
+.video-a video{
+  margin-top: 35px;
+  margin-bottom: 20px ;
 }
 
 /* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
@@ -103,7 +110,7 @@ header {
   margin-bottom: 10px;
   height: 40px;
   display: flex;
-  width: 390px;
+  width: 100%;
   background-color: #000000;
 
 
@@ -291,26 +298,16 @@ header h1 {
 
 
 
-.conts{
-
-
-        background-color: #747272;
-        bottom: 24px;
-        position: fixed;
-        width: 99%;
-        height: 40px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        border-top: 2px rgb(3, 3, 3) solid;
-        border-left: 2px rgb(3, 3, 3) solid;
-        border-right: 4px rgb(3, 3, 3) solid;
-
+.conts{   
+          justify-content: center;
+          width: 100%;
+          display: flex;    
+          margin: auto;
 }
 
 
 .conts img{
-  
+
   width: 40px;
   height: 40px;
  
@@ -319,33 +316,28 @@ header h1 {
 
 
 .whatsApp{
-  animation: sinal2 .5s linear forwards ;
-
-  display: block;
-  width: 50%;
-  background-color: rgb(2, 147, 2);
+  background-color: green;
+  justify-content: center;
+  animation: sinal2 .5s linear forwards;
+  width: 140px;
+ 
 
 }
 
 .whatsApp h3{
-  bottom: 23px;
-  position: relative;
-  color: white;
-  background-color: rgb(2, 147, 2);
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans Mono', monospace;
-  font-size: 100;
+  margin: 0;
+  width: 90px;
+  background-color: green;
+  
 }
 
 
 
-.telefone{
-  animation: sinal .5s linear forwards ;
-
-  display: block;
-  width: 50%;
-
-  background-color: rgb(7, 162, 7);
+.telefone{ 
+  background-color: green;
+  justify-content: center;
+  animation: sinal2 .5s linear forwards;
+  width: 140px;
 }
 
 .telefone svg{
@@ -353,10 +345,8 @@ header h1 {
   background-color: rgb(7, 162, 7);
 }
 .telefone h3{
-  position:relative ;
-  bottom: 23px;
-  color: white;
+  margin: 0;
+  width: 120px;
+
   background-color:rgb(7, 162, 7) ;
-  font-family: 'Inter', sans-serif;
-  font-family: 'Noto Sans Mono', monospace;
 }
