@@ -2,6 +2,7 @@
 <lang="pt-br">
 
   <head>
+    <script src="index.js"></script>
     <link rel="stylesheet" media="screen and (min-width: 900px)" href="styles 600px.css">
     <link rel="stylesheet" media="screen and (max-width: 600px)" href="styles.css">
 
@@ -64,31 +65,60 @@
  
       <!-- INICIO INFORMAÇOES SOBRE A EMPRESA -->
 
-<div class="contender-menu">
+      <div class="modal-overlay" id="overlay">
+        <div class="modal" id="modal">
+           <div class="modal-header">
+              Modal title
+           </div>
+           <div class="modal-content">
+              content
+           </div>
+           <div class="modal-footer">
+              footer
+           </div>
+        </div>
+     </div>
+     
+     <button onclick="openModal()">Quem Somos</button>
+     
 
-  <div class="contender-modal">
 
 
-    <div id="animar" class="moda1">
-      <h1>texto1</h1>
+     <div class="modal-overlay" id="overlay">
+      <div class="modal" id="modal">
+         <div class="modal-header">
+            Modal title
+         </div>
+         <div class="modal-content">
+            content
+         </div>
+         <div class="modal-footer">
+            footer
+         </div>
+      </div>
+   </div>
+   
+
+   
+   <button onclick="openModal()">Valores</button>
+
+   <div class="modal-overlay" id="overlay">
+    <div class="modal" id="modal">
+       <div class="modal-header">
+          Modal title
+       </div>
+       <div class="modal-content">
+          content
+       </div>
+       <div class="modal-footer">
+          footer
+       </div>
     </div>
-    <div id="animar" class="moda2">
-      <h1>texto1</h1>
-    </div>
-    <div id="animar" class="moda3">
-      <h1>texto1</h1>
-    </div>
+ </div>
+ 
 
-  </div>
-
-<div class="contender-bts">
-  <button id="ativar1">Quem Somos</button>
-  <button id="ativar2">Valores</button>
-  <button id="ativar3">missao</button>
-</div>
-
-
-</div>
+ 
+ <button onclick="openModal()">Missao</button>
 
     <!-- FIM INFORMAÇOES SOBRE A EMPRESA -->
 

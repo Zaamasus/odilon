@@ -126,92 +126,76 @@ margin-bottom: 20px;
 
 /* --------------------------INICIO INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
-.contender-menu{
-  display: flex;
-}
-
-
-.contender-modal{
-  width: 50%;
-
-}
-.contender-bts{
-display: block;
-  width: 40%;
-  height: 20vh;
-  background-color: white;
-  position: relative;
-  justify-content: center;
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.342);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  display: none;
   align-items: center;
-  margin: auto 25px auto auto;
+  justify-content: center;
+  overflow-y: auto;
 }
 
-.contender-bts button{
-  height: 32px;
-  width: 140px;
-  display: block;
-  margin: 15px auto;
-  background-color: #747272;
-  position: relative;
-  font-family: monospace;
-  color: #000000;
-
-
-}
-
-#animar{
+.modal {
+  margin: 1rem;
   width: 100%;
-  height: 25vh;
-  background-color: antiquewhite;
-  border-color: #000000;
+  max-width: 600px;
+  height: auto;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 11px;
+  display: none;
+  flex-direction: column;
+  overflow: hidden;
+  -webkit-animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-#modal1.animar {
-  animation-name: slide;
-  animation-duration: 0.3s;
-  animation-timing-function: ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction: normal;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
-  /* animation: slide .3s forwards; */
-}
+@media only screen and (max-width: 600px) {
+  .modal {
+    height: 50%;
+    width: 100vw;
 
-.modal1 {
-  padding: 30px;
-  background: white;
-  border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  max-width: 400px;
-  margin: 20px auto;
-  opacity: 0;
-  transform: translateX(-20px);
-}
-@keyframes slide {
-  to {
-    transform: translateX(0);
-    opacity: 1;
   }
 }
-@keyframes loadFrames {
+
+.modal-header {
+  background-color: rgba(0, 0, 0, 0.041);
+  padding: 1rem;
+}
+.modal-content {
+  padding: 0.5rem 1rem;
+  flex: 1;
+}
+.modal-footer {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.041);
+}
+
+@-webkit-keyframes scale-in-center {
   0% {
-    transform: translate(0px) scale(0.5);
-  }
-  25% {
-    transform: translate(200px);
-  }
-  50% {
-    transform: translate(200px, -200px) scale(1.5);
-  }
-  75% {
-    transform: translate(0px, -200px);
+    -webkit-transform: scale(0);
+    transform: scale(0);
   }
   100% {
-    transform: translate(0px) scale(0.5);
+    -webkit-transform: scale(1);
+    transform: scale(1);
   }
 }
-
+@keyframes scale-in-center {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
 /* --------------------------FIM INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
 header {
