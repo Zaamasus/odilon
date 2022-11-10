@@ -169,7 +169,8 @@ body {
   background-color: #747272;
   padding: 1rem;
 }
-.modal-header h1{
+
+.modal-header h1 {
   width: 120px;
   font-size: 20px;
   margin: auto;
@@ -180,16 +181,18 @@ body {
   padding: 0.5rem 1rem;
   flex: 1;
 }
-.modal-content h2{
+
+.modal-content h2 {
   font-size: 25px;
 }
+
 .modal-footer {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.041);
 }
 
 
-.contender01{
+.contender01 {
   width: 100%;
   height: 70vh;
   display: flex;
@@ -197,11 +200,11 @@ body {
   background-size: cover;
 }
 
-.img-bts{
+.img-bts {
   width: 50%;
 }
 
-.bts-list{
+.bts-list {
   width: 50%;
   display: block;
   position: relative;
@@ -211,9 +214,9 @@ body {
 
 }
 
-.bts2{
+.bts2 {
   position: relative;
-  margin:  55px 27px;
+  margin: 55px 27px;
   display: block;
   width: 139px;
   height: 35px;
@@ -356,11 +359,14 @@ li {
 
 
 .conts {
-  width: 100%;
-  display: flex;
-  overflow: auto;
-  position: fixed;
-  display: none;
+display: flex;
+position: fixed;
+bottom: 62px;
+z-index: ;
+outline: none;
+cursor: pointer;
+
+
 }
 
 
@@ -371,6 +377,7 @@ li {
   height: 40px;
   margin: auto;
   display: block;
+
 
 
 }
