@@ -95,7 +95,7 @@ body {
         margin-bottom: 10px;
         margin-top: 10px;
         /* border-top: rgb(235, 31, 31) 4px solid; */
-        border-bottom: rgb(230, 31, 31) 4px solid;
+        border-bottom: #747272 3px solid;
         border-radius: 4px;
 }
 
@@ -126,8 +126,85 @@ body {
 
 /* ---------------------------FIM DO CABESALHO---------------------------------------------------------- */
 
-/* --------------------------INICIO DO MENU---------------------------------------------------------- */
+/* --------------------------INICIO INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
+.modal-overlay {
+        background-color: rgba(0, 0, 0, 0.342);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        overflow-y: auto;
+}
+
+.modal {
+        margin: 1rem;
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        min-height: 300px;
+        background-color: white;
+        border-radius: 11px;
+        display: none;
+        flex-direction: column;
+        overflow: hidden;
+        -webkit-animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@media only screen and (max-width: 600px) {
+        .modal {
+                height: 50%;
+                width: 100vw;
+
+        }
+}
+
+.modal-header {
+        background-color: rgba(0, 0, 0, 0.041);
+        padding: 1rem;
+}
+
+.modal-content {
+        padding: 0.5rem 1rem;
+        flex: 1;
+}
+
+.modal-footer {
+        padding: 1rem;
+        background-color: rgba(0, 0, 0, 0.041);
+}
+
+@-webkit-keyframes scale-in-center {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+        }
+}
+
+@keyframes scale-in-center {
+        0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+        }
+
+        100% {
+                -webkit-transform: scale(1);
+                transform: scale(1);
+        }
+}
+
+/* --------------------------FIM INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
 header {
         margin-top: 10px;
@@ -136,7 +213,7 @@ header {
         display: flex;
         width: 100%;
         background-color: #000000;
-        border-bottom: 3px rgb(230, 31, 31) solid;
+        border-bottom: 3px #747272 solid;
         border-radius: 3px;
         /* border-top: 4px rgb(230, 31, 31) solid; */
 
@@ -179,226 +256,10 @@ li {
 
 }
 
-/* --------------------------FIM DO MENU---------------------------------------------------------- */
-.contender0 {
-        display: flex;
-}
-
-.contender2 {
-
-        padding-top: 10px;
-        margin: auto;
-}
 
 
 
 
-.contender2 img {
-
-        border: 3px rgb(158, 158, 158) solid;
-        width: 200px;
-
-}
-
-.cotender {
-        display: flex;
-        margin: auto;
-        height: 20vh;
-        align-self: center;
-
-
-}
-
-/* -------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
-
-.todal {
-        position: relative;
-        display: block;
-        margin: 10px;
-
-}
-
-#ativar {
-        height: 28px;
-        width: 115px;
-        border-radius: 9px;
-        border: none;
-        margin-bottom: 25px;
-
-}
-
-
-
-#modal1 h1 {
-        color: white;
-        font-size: 24px;
-        font-family: sans-serif;
-
-}
-
-#modal1 label {
-
-        font-size: 24px;
-        display: block;
-        font-family: sans-serif;
-        margin-bottom: 5px;
-        margin-top: 10px;
-}
-
-#modal1 input {
-        width: 100%;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 0.5rem;
-        font-size: 1rem;
-        background: #f7f7f7;
-}
-
-#modal1 button {
-        margin-top: 20px;
-        display: block;
-        font-family: sans-serif;
-        font-size: 1rem;
-        padding: 0.6rem 2rem;
-        border: none;
-        background: #ffb801;
-        border-radius: 4px;
-        color: #402d00;
-}
-
-#modal1 {
-        position: relative;
-        height: 40vh;
-        padding: 30px;
-        background: rgb(0, 0, 0);
-        border-radius: 4px;
-        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-        max-width: 50%;
-        margin: 10px;
-        opacity: 0;
-        transform: translateX(-20px);
-}
-
-#modal1.animar1 {
-        animation-name: slide;
-        animation-duration: 0.3s;
-        animation-timing-function: ease;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-        animation-play-state: running;
-        /* animation: slide .3s forwards; */
-}
-
-@keyframes slide {
-        to {
-                transform: translateX(0);
-                opacity: 1;
-        }
-}
-
-/* -----------------------------------------------------FIM MODAL1-------------------------------------------------------------------------------------------------------------- */
-
-
-
-/* --------------------------------------------------------- INICIO MODAL2---------------------------------------------------------------------------- */
-
-
-#ativar2 {
-        height: 28px;
-        width: 115px;
-        border-radius: 9px;
-        border: none;
-        margin-bottom: 25px;
-
-}
-
-#modal2 h1 {
-        color: white;
-        font-size: 24px;
-        font-family: sans-serif;
-
-}
-
-#modal2 label {
-
-        font-size: 24px;
-        display: block;
-        font-family: sans-serif;
-        margin-bottom: 5px;
-        margin-top: 10px;
-}
-
-#modal2 input {
-        width: 100%;
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 0.5rem;
-        font-size: 1rem;
-        background: #f7f7f7;
-}
-
-#modal2 button {
-        margin-top: 20px;
-        display: block;
-        font-family: sans-serif;
-        font-size: 1rem;
-        padding: 0.6rem 2rem;
-        border: none;
-        background: #ffb801;
-        border-radius: 4px;
-        color: #402d00;
-}
-
-#modal2 {
-        position: absolute;
-        height: 40vh;
-        padding: 30px;
-        background: rgb(247, 0, 0);
-        border-radius: 4px;
-        box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
-        max-width: 50%;
-        margin: 10px;
-        opacity: 0;
-        transform: translateX(-20px);
-}
-
-#modal2.animar {
-        animation-name: slide;
-        animation-duration: 0.3s;
-        animation-timing-function: ease;
-        animation-delay: 0s;
-        animation-iteration-count: 1;
-        animation-direction: normal;
-        animation-fill-mode: forwards;
-        animation-play-state: running;
-        /* animation: slide .3s forwards; */
-}
-
-
-
-/* -----------------------------------------------------FIM MODAL1-----------------------------------------------------------------------------------------------*/
-
-.quems {
-        padding-bottom: 24px;
-}
-
-.valores {
-        padding-bottom: 24px;
-}
-
-.miss {
-        padding-bottom: 24px;
-}
-
-
-
-
-
-
-
-/* -------------------------------Contatos --------------------- */
 
 @keyframes sinal {
 
