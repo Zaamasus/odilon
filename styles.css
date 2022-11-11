@@ -51,6 +51,8 @@ body {
   margin-bottom: 24px;
 
 }
+/* ------------------------------------------------------TESTE */
+
 
 .contender-logo h1 {
   margin: 18px auto;
@@ -60,8 +62,44 @@ body {
   font-weight: 400;
   line-height: 1.2em;
   width: 276px;
+ 
 
 }
+ .txt5{
+  width: 50%;
+  margin: auto;
+ }
+
+.txt5 h2{
+  height: 4vh;
+  font-size: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 3s steps(13) infinite alternate,
+    blink 800ms steps(13)  normal;
+  border-right: 5px solid rgb(250, 248, 248);
+}
+@keyframes typewriter {
+  0% {
+    width: 0%;
+  }
+
+
+  100%{
+    width: 100%;
+  }
+}
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+
+
 
 .contender-logo h2 {
   margin: 5px auto;
