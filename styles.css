@@ -588,6 +588,7 @@ a {
   font-size: 15px;
   color: white;
   text-decoration: none;
+  animation: 4s;
 }
 
 a:hover {
@@ -610,6 +611,7 @@ li {
   padding: 5px;
   margin-right: 20px;
   list-style: none;
+  animation: 4s;
 
 }
 
