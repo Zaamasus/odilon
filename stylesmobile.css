@@ -51,6 +51,7 @@ body {
   margin-bottom: 24px;
 
 }
+
 /* ------------------------------------------------------TESTE */
 
 
@@ -62,37 +63,41 @@ body {
   font-weight: 400;
   line-height: 1.2em;
   width: 276px;
- 
+
 
 }
- .txt5{
+
+.txt5 {
   width: 50%;
   margin: auto;
- }
+}
 
-.txt5 h2{
+.txt5 h2 {
   height: 4vh;
   font-size: 50px;
   white-space: nowrap;
   overflow: hidden;
   animation: typewriter 3s steps(13) infinite alternate,
-    blink 800ms steps(13)  normal;
+    blink 800ms steps(13) normal;
   border-right: 5px solid rgb(250, 248, 248);
 }
+
 @keyframes typewriter {
   0% {
     width: 0%;
   }
 
 
-  100%{
+  100% {
     width: 100%;
   }
 }
+
 @keyframes blink {
   from {
     border-color: black;
   }
+
   to {
     border-color: transparent;
   }
@@ -401,7 +406,7 @@ body {
 
 }
 
-.elementor-divider2{
+.elementor-divider2 {
   display: flex;
   width: 250px;
   height: 1px;
@@ -410,7 +415,8 @@ body {
   margin: auto;
 
 }
-.elementor-divider3{
+
+.elementor-divider3 {
   display: flex;
   width: 250px;
   height: 1px;
@@ -419,7 +425,8 @@ body {
   margin: auto;
 
 }
-.elementor-divider4{
+
+.elementor-divider4 {
 
   display: flex;
   width: 250px;
@@ -438,17 +445,17 @@ body {
   border-radius: 50%;
   width: 40px;
   height: 40px;
-  margin: 35px  auto;
+  margin: 35px auto;
 }
 
-.olhos1{
+.olhos1 {
   width: 60px;
   margin: auto;
 
 }
 
-.olhos1 img{
-  
+.olhos1 img {
+
   border-radius: 50%;
   width: 60px;
   height: 55px;
@@ -457,12 +464,12 @@ body {
 }
 
 
-.diamente{
+.diamente {
   width: 60px;
   margin: auto;
 }
 
-.diamente img{
+.diamente img {
   border-radius: 50%;
   width: 60px;
   height: 55px;
@@ -470,13 +477,13 @@ body {
 
 }
 
-.pessoas{
-  width:100%;
+.pessoas {
+  width: 100%;
   margin: auto;
 }
 
 
-.pessoas img{
+.pessoas img {
   display: block;
   position: relative;
   width: 212px;
@@ -503,7 +510,7 @@ body {
 
 }
 
-.valor-div{
+.valor-div {
 
   height: 67vh;
   position: relative;
@@ -511,7 +518,7 @@ body {
   display: block;
 }
 
-.valor-div h1{
+.valor-div h1 {
   font-family: 'Quicksand', sans-serif;
   width: 14vh;
   color: white;
@@ -519,7 +526,8 @@ body {
   margin: 15px auto;
 
 }
-.valor-div h2{
+
+.valor-div h2 {
   width: 30vh;
   color: white;
   font-size: 16px;
@@ -675,7 +683,6 @@ li {
   display: flex;
   position: fixed;
   bottom: 62px;
-  z-index: ;
   outline: none;
   cursor: pointer;
 
@@ -690,9 +697,6 @@ li {
   height: 40px;
   margin: auto;
   display: block;
-
-
-
 }
 
 
