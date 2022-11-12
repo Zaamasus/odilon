@@ -15,73 +15,6 @@
     }
 }
 
-body {
-    background-color: #000000;
-    margin: 0px auto;
-    justify-content: center;
-    position: relative;
-    display: flex;
-    height: 2000px;
-
-}
-
-
-/* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
-.top-main {
-    background-color: #747272;
-
-    display: block;
-
-
-
-}
-
-.top-sub {
-
-    background-image: url(src/img/moto_08.jpg);
-    height: 45px;
-    background-size: 45px;
-    background: no-repeat;
-
-}
-
-.contender-logo {
-    background-color: #000000;
-    width: 100%;
-    margin-bottom: 24px;
-
-}
-
-/* ------------------------------------------------------TESTE */
-
-
-.contender-logo h1 {
-    margin: 18px auto;
-    color: #FFFFFF;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 31px;
-    font-weight: 400;
-    line-height: 1.2em;
-    width: 276px;
-
-
-}
-
-.txt5 {
-    width: 50%;
-    margin: auto;
-}
-
-.txt5 h2 {
-    height: 4vh;
-    font-size: 50px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typewriter 3s steps(13) infinite alternate,
-        blink 800ms steps(13) normal;
-    border-right: 5px solid rgb(250, 248, 248);
-}
-
 @keyframes typewriter {
     0% {
         width: 0%;
@@ -102,9 +35,67 @@ body {
         border-color: transparent;
     }
 }
+@keyframes left {
+    from {transform: translateX(-100px);}
+    to {transform: translateX(0px);}
+  }
+
+
+body {
+
+    animation-name: left;
+    animation-duration: 3s;  
+    
+
+    background-color: #000000;
+    margin: 0px auto;
+    justify-content: center;
+    position: relative;
+    display: flex;
+    height: 2000px;
+    width: 800px;
+}
+
+
+/* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
+.top-main {
+
+    width: 800px;
+    background-color: #747272;
+
+    display: block;
 
 
 
+}
+
+.contender-logo {
+    background-color: #000000;
+    width: 800px;
+    margin-bottom: 24px;
+    height: 35vh;
+}
+.contender-logo img {
+    animation: pulse 3s infinite;
+    width: 225px;
+    margin:auto;
+    display: block;
+
+
+
+}
+
+.contender-logo h1 {
+    margin: 18px auto;
+    color: #FFFFFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.2em;
+    width: 55vh;
+
+
+}
 
 .contender-logo h2 {
     margin: 5px auto;
@@ -113,31 +104,55 @@ body {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1.2em;
-    font-size: 15px;
-    width: 105px;
-
-}
-
-.contender-logo img {
-    width: 150px;
-    margin: 0px 0px 0px 92px;
-
+    font-size: 25px;
+    width: 25vh;
 
 }
 
 .elementor-divider-sep {
-    width: 100%;
+    width: 800px;
 }
+
 
 .elementor-divider {
     display: flex;
-    width: 179px;
+    width: 300px;
     height: 2px;
     background-color: #94ff00;
     position: relative;
     margin: 14px auto;
 
 }
+.top-sub {
+
+    background-image: url(src/img/moto_08.jpg);
+    height: 45px;
+    background-size: 45px;
+    background: no-repeat;
+
+}
+
+
+
+
+
+
+
+.txt5 {
+    width: 50%;
+    margin: auto;
+}
+
+.txt5 h2 {
+    height: 4vh;
+    font-size: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 3s steps(13) infinite alternate,
+        blink 800ms steps(13) normal;
+    border-right: 5px solid rgb(250, 248, 248);
+}
+
 
 
 .np {
@@ -347,20 +362,48 @@ body {
 
 .divisor1 {
     background-color: #94FF00;
-    width: 18px;
+    width: 50px;
     height: 3px;
     position: relative;
     left: 52px;
+    border-radius: 14px;
 
 
 }
 
 .divisor2 {
     background-color: #94FF00;
-    width: 18px;
+    width: 50px;
     height: 3px;
     position: relative;
     right: 64px;
+    border-radius: 14px;
+
+}
+
+
+
+.txt h1 {
+    font-family: 'Quicksand', sans-serif;
+    width: 38vh;
+    color: white;
+    font-size: 5vh;
+    margin:  auto;
+
+}
+
+
+
+
+.txt h2 {
+
+    width: 80vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 22px;
+    margin: 54px auto;
+    display: block;
+
 
 }
 
@@ -375,40 +418,11 @@ body {
 }
 
 
-.txt h1 {
-    font-family: 'Quicksand', sans-serif;
-    width: 25vh;
 
-    color: white;
-    font-size: 4vh;
-    margin: 15px auto;
-}
-
-.txt img {
-    position: relative;
-    width: 34vh;
-    height: 26vh;
-    margin: 15px 45px;
-
-
-}
-
-
-
-.txt h2 {
-
-    width: 30vh;
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-    font-size: 16px;
-    margin: 35px auto;
-
-
-}
 
 .elementor-divider2 {
     display: flex;
-    width: 250px;
+    width: 90vh;
     height: 1px;
     background-color: #94ff00;
     position: relative;
@@ -418,7 +432,7 @@ body {
 
 .elementor-divider3 {
     display: flex;
-    width: 250px;
+    width: 90vh;
     height: 1px;
     background-color: #208cff;
     position: relative;
@@ -427,14 +441,12 @@ body {
 }
 
 .elementor-divider4 {
-
-    display: flex;
-    width: 250px;
+    display: block;
+    width: 90vh;
     height: 1px;
-    background-color: #eeff00;
+    background-color: #eeff01;
     position: relative;
     margin: auto;
-
 }
 
 
@@ -443,8 +455,8 @@ body {
 
     background: #94FF00;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     margin: 35px auto;
 }
 
@@ -457,8 +469,8 @@ body {
 .olhos1 img {
 
     border-radius: 50%;
-    width: 60px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     margin: 20px auto;
 
 }
@@ -471,8 +483,8 @@ body {
 
 .diamente img {
     border-radius: 50%;
-    width: 60px;
-    height: 55px;
+    width: 70px;
+    height: 70px;
     margin: 20px auto;
 
 }
@@ -497,14 +509,14 @@ body {
     font-family: 'Quicksand', sans-serif;
     width: 14vh;
     color: white;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 15px auto;
 }
 
 .missao h2 {
-    width: 30vh;
+    width: 80vh;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     margin: 35px auto;
     font-family: 'Montserrat', sans-serif;
 
@@ -522,15 +534,15 @@ body {
     font-family: 'Quicksand', sans-serif;
     width: 14vh;
     color: white;
-    font-size: 4vh;
+    font-size: 5vh;
     margin: 15px auto;
 
 }
 
 .valor-div h2 {
-    width: 30vh;
+    width: 80vh;
     color: white;
-    font-size: 16px;
+    font-size: 22px;
     margin: 35px auto;
     font-family: 'Montserrat', sans-serif;
 }
@@ -592,22 +604,26 @@ nav {
 
 a {
     font-family: "Mulish", Sans-serif;
-    border-radius: 14px;
-    font-size: 15px;
+    border-radius: 6px;
+    font-size: 21px;
     color: white;
     text-decoration: none;
     animation: 4s;
+    background-color: #000000;
 }
 
 a:hover {
-    border-radius: 14px;
+    
+    font-family: "Mulish", Sans-serif;
+    border: none;
+    border-radius: 14px ;
     padding: 5px;
-    background-color: #FFF;
+    background-color: rgb(30, 255, 0);
     color: black;
 }
 
 li:hover {
-    background-color: #FFF;
+    background-color: rgb(0, 0, 0);
     color: black;
     border-radius: 14px;
 }

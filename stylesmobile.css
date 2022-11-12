@@ -15,7 +15,44 @@
   }
 }
 
+@keyframes typewriter {
+  0% {
+    width: 0%;
+  }
+
+
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: black;
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+
+ 
+/*  ------------------ANIMAÇÃO LATEREAL VINDO DA ESQUERDA */
+@keyframes left {
+  from {transform: translateX(-100px);}
+  to {transform: translateX(0px);}
+}
+
+
+
+
+
+
 body {
+  animation-name: left;
+  animation-duration: 1s;  
+
   background-color: #000000;
   margin: 0px auto;
   justify-content: center;
@@ -82,26 +119,6 @@ body {
   border-right: 5px solid rgb(250, 248, 248);
 }
 
-@keyframes typewriter {
-  0% {
-    width: 0%;
-  }
-
-
-  100% {
-    width: 100%;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-color: black;
-  }
-
-  to {
-    border-color: transparent;
-  }
-}
 
 
 
@@ -119,6 +136,7 @@ body {
 }
 
 .contender-logo img {
+  animation: pulse 3s infinite;
   width: 150px;
   margin: 0px 0px 0px 92px;
 
