@@ -706,67 +706,126 @@ li {
 }
 
 
+/* galeria */
 
-.conts {
-  display: flex;
+
+
+
+
+
+/* 
+
+
+.galeria-videos{
+  display: grid;
+  width: 100%;
+ 
+}
+
+.galeria-videos h1{
+color: white;
+display: flex;
+margin: auto;
+
+}
+.videos ul{
+  ;
+  margin: 0 ;
+  padding: 0;
+}
+
+
+.videos li{
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 45px auto;
+
+
+
+}
+
+
+.videos li video{
+  display: block;
+  margin: auto;
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.todos-contato{
+  margin: 0;
+  padding: 0;
+  width: 100%;
   position: fixed;
-  bottom: 62px;
-  outline: none;
-  cursor: pointer;
-
-
+  bottom: 0%;
+  left: 0;
 }
 
+.contatos{
+  padding: 0;
+ position: relative;
 
-.conts img {
-
-  position: relative;
-  width: 40px;
-  height: 40px;
-  margin: auto;
-  display: block;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  bottom: 0%;
 }
 
-
-
-.whatsApp {
-  background-color: rgb(10, 152, 10);
-  justify-content: center;
-  animation: sinal2 .5s linear forwards;
-  width: 49%;
-
-
-}
-
-.whatsApp h3 {
+.telefone{
   padding-top: 5px;
-  margin: auto;
-  width: 90px;
-  background-color: rgb(10, 152, 10);
   display: block;
-
-}
-
-
-
-.telefone {
-  background-color: green;
-  justify-content: center;
-  animation: sinal2 .5s linear forwards;
-  width: 49%;
-}
-
-.telefone svg {
-  display: block;
-  position: relative;
-  margin: auto;
+  width:  50%;
   background-color: green;
 }
 
-.telefone h3 {
+.telefone img{
+  margin: auto;
+  display: block;
+  width: 44px;
+  height: 44px;
+
+}
+
+.telefone button{
+  margin: auto;
+  display: block;
+  color:green;
+  background-color: green;
+  border: none;
+}
+
+.whatsapp{
   padding-top: 5px;
-  margin: auto;
-  width: 140px;
-  background-color: green;
   display: block;
+width: 50%;
+  background-color: green;
+}
+
+.whatsapp img{
+  margin: auto;
+  display: block;
+  width: 44px;
+  height: 44px;
+  color: #00ff0d;
+
+}
+
+.whatsapp button{
+  margin: auto;
+  display: block;
+  color:green;
+  background-color: green;
+  border: none;
 }

@@ -110,7 +110,7 @@ body {
     font-size: 45px;
     font-weight: 400;
     line-height: 1.2em;
-    width: 55vh;
+    width: 59vh;
 
 
 }
@@ -123,7 +123,7 @@ body {
     text-transform: uppercase;
     line-height: 1.2em;
     font-size: 25px;
-    width: 25vh;
+    width: 28vh;
 
 }
 
@@ -543,8 +543,103 @@ li {
 
 /* --------------------GALERIA DE VIDEOS */
 
-.slideshow-container{
-    width: 800px;
+@keyframes sinal {
+
+    0% {
+        transform: translateX(20px);
+    }
+
+    40% {
+        transform: translateX(0px);
+    }
+
+    60% {
+        transform: translateX(10px);
+    }
+
+    80% {
+        transform: translateX(5px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+
+}
+
+@keyframes sinal2 {
+
+    0% {
+        transform: translateX(-20px);
+    }
+
+    40% {
+        transform: translateX(0);
+    }
+
+    60% {
+        transform: translateX(-10px);
+    }
+
+    80% {
+        transform: translateX(-5);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.conts {
+    display: flex;
+    position: fixed;
+    bottom: 62px;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+
+.conts img {
+
     position: relative;
     display: flex;
     margin: auto;
@@ -556,4 +651,28 @@ li {
     display: flex;
     position: absolute;
 
+}
+
+
+
+.telefone {
+    background-color: green;
+    justify-content: center;
+    animation: sinal2 .5s linear forwards;
+    width: 49%;
+}
+
+.telefone svg {
+    display: block;
+    position: relative;
+    margin: auto;
+    background-color: green;
+}
+
+.telefone h3 {
+    padding-top: 5px;
+    margin: auto;
+    width: 140px;
+    background-color: green;
+    display: block;
 }
