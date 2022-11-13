@@ -14,6 +14,7 @@
         box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
     }
 }
+/*  ------------------ANIMAÇÃO DIGIÇÃO  */
 
 @keyframes typewriter {
     0% {
@@ -35,11 +36,28 @@
         border-color: transparent;
     }
 }
+
+
+/*  ANIMAÇÃO LATEREAL VINDO DA DIREITA */
+
+
+@keyframes right {
+    from {transform: translateX(200px);}
+    to {transform: translateX(0px);}
+  }
+
+
+
+/*  ANIMAÇÃO LATEREAL VINDO DA ESQUERDA */
+
+
 @keyframes left {
     from {transform: translateX(-100px);}
     to {transform: translateX(0px);}
   }
 
+
+  /*  ------------------INICIO CSS------------ */
 
 body {
 
@@ -222,129 +240,6 @@ body {
 
 /* --------------------------INICIO INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
-.modal-overlay {
-    background-color: rgba(0, 0, 0, 0.342);
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    overflow-y: auto;
-}
-
-.modal {
-    margin: 1rem;
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    min-height: 300px;
-    background-color: white;
-    border-radius: 11px;
-    display: none;
-    flex-direction: column;
-    overflow: hidden;
-    -webkit-animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    animation: scale-in-center 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-@media only screen and (max-width: 600px) {
-    .modal {
-        height: 40%;
-        width: 100vw;
-        border: white 1px solid;
-
-    }
-}
-
-.modal-header {
-    background-color: #191970;
-    padding: 1rem;
-    border: none;
-}
-
-.modal-header h1 {
-    color: white;
-    width: 150px;
-    font-size: 20px;
-    margin: auto;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-.modal-content {
-    border: none;
-    padding: 0.5rem 1rem;
-    flex: 1;
-    background-color: #191970;
-}
-
-.modal-content h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 18px;
-}
-
-.modal-footer {
-    display: none;
-    padding: 1rem;
-    background-color: rgba(0, 0, 0, 0.041);
-}
-
-
-.contender01 {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    background-color: #000000;
-    background-size: cover;
-    margin-top: 21px;
-}
-
-.img-bts {
-    background-color: #000000;
-    width: 63%;
-    height: 52vh;
-    display: none;
-
-}
-
-.bts-list {
-    width: 93%;
-    display: block;
-    position: relative;
-
-    padding: 0px;
-
-
-}
-
-
-
-.bts2 {
-    width: 170px;
-    height: 32px;
-    margin: 15px auto;
-    display: block;
-    font-family: inherit;
-    font-size: 22px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    fill: #000000;
-    color: #000000;
-    background-color: #94FF00;
-    border-radius: 30px 30px 30px 30px;
-    border: none;
-
-}
-
-.bts2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-
-}
 
 
 
@@ -583,6 +478,9 @@ body {
 /* --------------------------FIM INFORMAÇOES SOBRE A EMPRESA---------------------------------------------------------- */
 
 header {
+
+    animation-name: right;
+    animation-duration: 3s; 
     margin-top: 10px;
     margin-bottom: 10px;
     height: 40px;
@@ -643,118 +541,19 @@ li {
 
 
 
+/* --------------------GALERIA DE VIDEOS */
 
-@keyframes sinal {
-
-    0% {
-        transform: translateX(20px);
-    }
-
-    40% {
-        transform: translateX(0px);
-    }
-
-    60% {
-        transform: translateX(10px);
-    }
-
-    80% {
-        transform: translateX(5px);
-    }
-
-    100% {
-        transform: translateX(0px);
-    }
-
-}
-
-@keyframes sinal2 {
-
-    0% {
-        transform: translateX(-20px);
-    }
-
-    40% {
-        transform: translateX(0);
-    }
-
-    60% {
-        transform: translateX(-10px);
-    }
-
-    80% {
-        transform: translateX(-5);
-    }
-
-    100% {
-        transform: translateX(0);
-    }
-
-
-}
-
-
-
-.conts {
+.slideshow-container{
+    width: 800px;
+    position: relative;
     display: flex;
-    position: fixed;
-    bottom: 62px;
-    outline: none;
-    cursor: pointer;
-
-
-}
-
-
-.conts img {
-
-    position: relative;
-    width: 40px;
-    height: 40px;
     margin: auto;
-    display: block;
+    overflow: hidden;
 }
 
+.mySlideVideo fade video {
+    width: 400px;
+    display: flex;
+    position: absolute;
 
-
-.whatsApp {
-    background-color: rgb(10, 152, 10);
-    justify-content: center;
-    animation: sinal2 .5s linear forwards;
-    width: 49%;
-
-
-}
-
-.whatsApp h3 {
-    padding-top: 5px;
-    margin: auto;
-    width: 90px;
-    background-color: rgb(10, 152, 10);
-    display: block;
-
-}
-
-
-
-.telefone {
-    background-color: green;
-    justify-content: center;
-    animation: sinal2 .5s linear forwards;
-    width: 49%;
-}
-
-.telefone svg {
-    display: block;
-    position: relative;
-    margin: auto;
-    background-color: green;
-}
-
-.telefone h3 {
-    padding-top: 5px;
-    margin: auto;
-    width: 140px;
-    background-color: green;
-    display: block;
 }

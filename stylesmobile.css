@@ -37,6 +37,16 @@
 }
 
 
+
+/*  ANIMAÇÃO LATEREAL VINDO DA DIREITA */
+
+
+@keyframes right {
+  from {transform: translateY(-100px);}
+  to {transform: translateY(0px);}
+}
+
+
  
 /*  ------------------ANIMAÇÃO LATEREAL VINDO DA ESQUERDA */
 @keyframes left {
