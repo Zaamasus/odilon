@@ -696,6 +696,57 @@ li {
 }
 
 
+/* galeria */
+
+
+.galeria-videos{
+  width: 100%;
+ 
+}
+
+.galeria-videos h1{
+color: white;
+display: block;
+margin: 5em auto;
+width: 6rem;
+
+
+}
+.videos ul{
+  margin: 0 ;
+  padding: 0;
+}
+
+
+.videos li{
+  position: relative;
+  display: block;
+  width: 90%;
+  margin: 45px auto;
+
+
+
+}
+
+
+.videos li video{
+  display: block;
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .todos-contato{
   margin: 0;
   padding: 0;
@@ -733,7 +784,7 @@ li {
 .telefone button{
   margin: auto;
   display: block;
-  color: #000000;
+  color:green;
   background-color: green;
   border: none;
 }
@@ -750,13 +801,14 @@ width: 50%;
   display: block;
   width: 44px;
   height: 44px;
+  color: #00ff0d;
 
 }
 
 .whatsapp button{
   margin: auto;
   display: block;
-  color: #000000;
+  color:green;
   background-color: green;
   border: none;
 }
