@@ -716,6 +716,7 @@ li {
 }
 
 .telefone{
+  padding-top: 5px;
   display: block;
   width:  50%;
   background-color: green;
@@ -724,8 +725,8 @@ li {
 .telefone img{
   margin: auto;
   display: block;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
 
 }
 
@@ -738,6 +739,7 @@ li {
 }
 
 .whatsapp{
+  padding-top: 5px;
   display: block;
 width: 50%;
   background-color: green;
@@ -746,8 +748,8 @@ width: 50%;
 .whatsapp img{
   margin: auto;
   display: block;
-  width: 45px;
-  height: 45px;
+  width: 44px;
+  height: 44px;
 
 }
 
