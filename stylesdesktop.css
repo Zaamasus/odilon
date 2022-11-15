@@ -77,7 +77,7 @@ body {
 }
 .contender-logo img {
     animation: pulse 3s infinite;
-    width: 225px;
+    width: 500px;
     margin:auto;
     display: block;
 
@@ -116,7 +116,7 @@ body {
 
 .elementor-divider {
     display: flex;
-    width: 300px;
+    width:550px;
     height: 2px;
     background-color: #94ff00;
     position: relative;
