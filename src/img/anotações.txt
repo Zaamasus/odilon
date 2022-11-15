@@ -1,0 +1,152 @@
+font-family: 'Noto Sans Mono', monospace;
+<div class="numero">
+                              <h1 class="nun1">(31)9 9999-9999</h1>
+                              <h1 class="nun2">(31)9 9999-9999</h1>
+
+                    </div>
+
+                                                  <!-- SLIDER DAS IMAGENS DO CLIENTE -->
+ <div class="border">
+
+<div class="slider">
+
+          <div class="slides">
+
+                    <!-- Radio Buttons -->
+
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                 </div>
+                    <!-- Fim Radio Buttons -->
+
+                  <!-- Slide Imgs -->
+
+          <div class="slide first">
+
+           <div class="slide">
+                     <img src="src/imagem01.png" alt="imagem1">
+
+                     </div>
+
+          <div class="slide">
+                    <img src="src/images02.jpg" alt="imagem2">
+
+                    </div>
+
+           <div class="slide">
+                    <img src="src/jp.jpeg" alt="imagem3">
+
+                    </div>
+          
+<div class="slide">
+                    <img src="src/imagem01.png" alt="imagem4">
+
+                    </div>
+                    <!-- Fim Slide Imgs -->
+
+                   <!-- Navgatiom -->  
+          
+           <div class="navgation-auto">
+                    
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                  </div>
+          </div>
+
+          <div class="manual-navgation">
+
+                    <label for="radio1" class="manual-btn" ></label>
+                    <label for="radio2" class="manual-btn" ></label>
+                    <label for="radio3" class="manual-btn" ></label>
+                    <label for="radio4" class="manual-btn" ></label>
+
+
+          </div>
+          .slider{
+  margin:  auto;
+  width: 433px;
+  height: 412px;
+  overflow: hidden;
+  display: flex;
+  position: relative;
+  top: 24px;
+}
+
+
+.slides{
+  position: absolute;
+ width: 37%;
+ height: 400px;
+ display: flex;
+}
+
+.slides input{
+  display: none;
+
+}
+
+.slide{
+  width: 25% ;
+  position: relative;
+}
+
+.slide img{
+  padding-top: 16px;
+  padding-left: 38px;
+  width: 365px;
+  
+}
+
+.manualnavgation{
+  position: absolute; 
+  width: 400px;
+  margin-top: -40px ;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+
+    border: 2px solid black;
+    padding: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+   
+    height: -2px;
+    top: 385px;
+    position: relative;
+    display: inline-flex;
+    left: 77px;
+}
+
+
+.manual-btn:last-child{
+
+  margin-right: 50px;
+
+}
+.manual-btn:hover{
+  background-color: white;
+  color:black;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+
+}
+#radio2:checked ~ .first{
+  margin-left: 25%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: 25%;
+}
+#radio4:checked ~ .first{
+  margin-left: 25%;
+}
+  

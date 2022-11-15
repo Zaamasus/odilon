@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Codespaces
-Marketplace
-Explore
- 
-@Zaamasus 
-Zaamasus
-/
-odilon
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-odilon/stylesmobile.css
-@Zaamasus
-Zaamasus carrocel
-…
-Latest commit d29925a in 2 days
- History
- 1 contributor
-821 lines (587 sloc)  10.4 KB
-
 @keyframes pulse {
   0% {
     transform: scale(0.95);
@@ -167,9 +136,10 @@ body {
 }
 
 .contender-logo img {
+  display: block;
   animation: pulse 3s infinite;
-  width: 150px;
-  margin: 0px 0px 0px 92px;
+  width: 300px;
+  margin: auto;
 
 
 }
@@ -180,7 +150,7 @@ body {
 
 .elementor-divider {
   display: flex;
-  width: 179px;
+  width: 245px;
   height: 2px;
   background-color: #94ff00;
   position: relative;
@@ -735,27 +705,38 @@ li {
 
 
 /* 
+
+
 .galeria-videos{
   display: grid;
   width: 100%;
  
 }
+
 .galeria-videos h1{
 color: white;
 display: flex;
 margin: auto;
+
 }
 .videos ul{
   ;
   margin: 0 ;
   padding: 0;
 }
+
+
 .videos li{
   position: relative;
   display: block;
   width: 90%;
   margin: 45px auto;
+
+
+
 }
+
+
 .videos li video{
   display: block;
   margin: auto;
@@ -839,18 +820,3 @@ width: 50%;
   background-color: green;
   border: none;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Zaamasus/odilon at d29925a909b1684a2e27c74008c2885ef4504adbodilon/stylesmobile.css at d29925a909b1684a2e27c74008c2885ef4504adb · Zaamasus/odilon
