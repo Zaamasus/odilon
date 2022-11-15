@@ -709,56 +709,15 @@ li {
 
 
 
-/* 
 
 
-.galeria-videos{
-  display: grid;
+
+.videos{
   width: 100%;
- 
+  display: flex;
+  margin-bottom: 500px;
+  height: 450px ;
 }
-
-.galeria-videos h1{
-color: white;
-display: flex;
-margin: auto;
-
-}
-.videos ul{
-  ;
-  margin: 0 ;
-  padding: 0;
-}
-
-
-.videos li{
-  position: relative;
-  display: block;
-  width: 90%;
-  margin: 45px auto;
-
-
-
-}
-
-
-.videos li video{
-  display: block;
-  margin: auto;
-}
- */
-
-
-
-
-
-
-
-
-
-
-
-
 
 .todos-contato {
   margin: 0;
