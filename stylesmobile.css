@@ -357,36 +357,47 @@ body {
 
 
 
+
+.nss {
+  display: flex;
+  margin: 50px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.nss h3 {
+
+  display: flex;
+  color: #6F6F6F;
+  font-family: "Quicksand", Sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin: 50px auto;
+  width: 16vh;
+  font-size: 29px;
+
+}
+
+#nh1 {
+  width: 45px;
+  height: 3px;
+  background-color: #94FF00;
+  margin: auto;
+}
+
+
+
+
+
+
+
 .txt {
   width: 100%;
   margin: 35px auto;
 }
 
-.divisora1 {
-  display: flex;
-  position: relative;
-  justify-content: center;
-  align-items: center;
-}
-
-.divisor1 {
-  background-color: #94FF00;
-  width: 18px;
-  height: 3px;
-  position: relative;
-  left: 52px;
-
-
-}
-
-.divisor2 {
-  background-color: #94FF00;
-  width: 18px;
-  height: 3px;
-  position: relative;
-  right: 64px;
-
-}
 
 .txt h3 {
   color: #6F6F6F;
@@ -712,51 +723,50 @@ li {
 
 
 
-.videos_motos{
-  padding-bottom:32px ;
+.videos_motos {
+  padding-bottom: 32px;
 }
-.title-videos{
+
+.title-videos {
   display: flex;
   width: 150px;
   margin: auto;
 }
 
-.title-videos h1{
+.title-videos h1 {
   color: white;
   margin: auto;
   display: flex;
   width: 94px;
 }
 
-.title-videos img{
+.title-videos img {
 
-width: 45px;
-margin: auto;
-padding: 0;
+  width: 45px;
+  margin: auto;
+  padding: 0;
 
 
 
 }
 
 
-.video-02{
- 
-}
+.video-02 {}
 
-#motocas{
+#motocas {
 
 
   margin: 35px auto;
 }
 
-.div-videos{
+.div-videos {
   border-radius: 7px;
   width: 80%;
   height: 4px;
 
 
   background-color:
-  #7400FF;
+    #7400FF;
   margin: auto;
   display: block;
 }
@@ -769,40 +779,34 @@ padding: 0;
 
 
 
-
-
-.slider{
-  overflow: hidden;
-
-}
-.slider > .slider-content{
+.galeria-vf {
   display: flex;
-  flex-wrap: nowrap;
-  width: 100%;
-  transition: all 500ms ease;
+  margin: 50px auto;
+  position: relative;
+  align-items: center;
+  justify-content: center;
 
 }
 
-.slider > .slider-content > .slider-item {
-  flex: 0 0 auto;
-  width: 100%;
+.galeria-vf h3 {
+
+  display: flex;
+  color: #6F6F6F;
+  font-family: "Quicksand", Sans-serif;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  margin: 50px auto;
+  width: 16vh;
+  font-size: 29px;
+
 }
 
-.slider > input:nth-child(1):checked ~ .slider-content{
-  transform: translateX(0%);
+#div-vf {
+  width: 45px;
+  height: 3px;
+  background-color: #7400FF;
+  margin: auto;
 }
-
-.slider > input:nth-child(2):checked ~ .slider-content{
-  transform: translateX(-100%);
-}
-.slider > input:nth-child(3):checked ~ .slider-content{
-  transform: translateX(-200%);
-}
-
-.slider > input:nth-child(4):checked ~ .slider-content{
-  transform: translateX(-300%);
-}
-
 
 
 
@@ -838,19 +842,19 @@ padding: 0;
   justify-content: center;
   margin: auto;
 
-  
+
   padding-top: 5px;
   display: block;
   width: 50%;
   background-color: rgba(3, 210, 3, 0.906);
 }
-.telefone a{
+
+.telefone a {
   margin: auto;
   font-family: monospace;
   font-size: 15px;
-  color:  rgba(0, 0, 0, 0.906)
-  ;
-  background-color:  rgba(3, 210, 3, 0.906);
+  color: rgba(0, 0, 0, 0.906);
+  background-color: rgba(3, 210, 3, 0.906);
 }
 
 .telefone img {
@@ -873,7 +877,7 @@ padding: 0;
 
 .whatsapp {
   height: 62px;
-  color:  rgba(3, 210, 3, 0.906);
+  color: rgba(3, 210, 3, 0.906);
   padding-top: 5px;
   display: block;
   width: 50%;
@@ -888,12 +892,12 @@ padding: 0;
   color: #000000;
 
 }
-.whatsapp a{
+
+.whatsapp a {
   font-family: monospace;
   font-size: 15px;
-  color:  rgba(0, 0, 0, 0.906)
-  ;
-  background-color:  rgba(3, 210, 3, 0.906);
+  color: rgba(0, 0, 0, 0.906);
+  background-color: rgba(3, 210, 3, 0.906);
 }
 
 .whatsapp button {
@@ -901,6 +905,6 @@ padding: 0;
   margin: auto;
   display: block;
   color: rgba(3, 210, 3, 0.906);
-  background-color: transparent ;
+  background-color: transparent;
   border: none;
 }
