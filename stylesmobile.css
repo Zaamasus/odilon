@@ -712,12 +712,107 @@ li {
 
 
 
-.videos{
-  width: 100%;
-  display: flex;
-  margin-bottom: 500px;
-  height: 450px ;
+.videos_motos{
+  padding-bottom:32px ;
 }
+.title-videos{
+  display: flex;
+  width: 150px;
+  margin: auto;
+}
+
+.title-videos h1{
+  color: white;
+  margin: auto;
+  display: flex;
+  width: 94px;
+}
+
+.title-videos img{
+
+width: 45px;
+margin: auto;
+padding: 0;
+
+
+
+}
+
+
+.video-02{
+ 
+}
+
+#motocas{
+
+
+  margin: 35px auto;
+}
+
+.div-videos{
+  border-radius: 7px;
+  width: 80%;
+  height: 4px;
+
+
+  background-color:
+  #7400FF;
+  margin: auto;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+.slider{
+  overflow: hidden;
+
+}
+.slider > .slider-content{
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  transition: all 500ms ease;
+
+}
+
+.slider > .slider-content > .slider-item {
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+  transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+  transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+  transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+  transform: translateX(-300%);
+}
+
+
+
+
+
+
+
+
+
+
+
 
 .todos-contato {
   margin: 0;
