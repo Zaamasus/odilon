@@ -648,8 +648,8 @@ li {
   text-transform: uppercase;
   line-height: 1.2em;
   margin: 50px auto;
-  width: 16'vh;
-  font-size: 29px;
+  width: 22vh;
+  font-size: 40px;
 
 }
 
@@ -672,10 +672,8 @@ li {
 
 .textGalerry h1 {
   width: 3em;
-  font-size: 2em;
+  font-size: 3em;
   padding: 5px;
-
-
   color: white;
 }
 
@@ -689,7 +687,7 @@ li {
 .gallery2 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(5, 80vw);
+  grid-template-rows: repeat(4, 80vw);
   grid-gap: 25px;
   margin-bottom: 100px;
 
@@ -732,10 +730,11 @@ li {
 
 #camera_1 {
   position: relative;
-  top: -26px;
+  top: -24px;
   padding: 0%;
   width: 50px;
   height: 50px;
+
 
 
 
