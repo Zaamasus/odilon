@@ -783,6 +783,7 @@ top: -28px;
 }
 
 .contatos {
+  align-items: center;
   padding: 0;
   position: relative;
   height: 63px;
@@ -802,6 +803,7 @@ top: -28px;
   display: block;
   width: 50%;
   background-color: rgba(3, 210, 3, 0.906);
+  height: 62px;
 }
 
 .telefone a {
@@ -816,12 +818,13 @@ top: -28px;
   position: relative;
   margin: auto;
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 
 }
 
 .telefone button {
+  
   padding: 5px;
   display: block;
   color: rgba(3, 210, 3, 0.906);
@@ -831,8 +834,11 @@ top: -28px;
 }
 
 .whatsapp {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
   height: 62px;
-  color: rgba(3, 210, 3, 0.906);
   padding-top: 5px;
   display: block;
   width: 50%;
@@ -842,8 +848,8 @@ top: -28px;
 .whatsapp img {
   margin: auto;
   display: block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   color: #000000;
 
 }
