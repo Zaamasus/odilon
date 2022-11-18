@@ -641,15 +641,15 @@ li {
 
 .textGalerry{
   display: flex;
-  width: 66%;
-  margin: auto;
+  width: 55%;
+  margin: 143px auto auto auto;
   align-items: center;
   
 }
 
 .textGalerry h1{
   width: 3em;
-  font-size: 3em;
+  font-size: 2em;
   padding: 5px;
 
  
@@ -696,7 +696,7 @@ li {
 .textFotos h1{
   height: 70px;
   width: 4em;
-  font-size: 3em;
+  font-size: 2em;
   padding: 5px;
 
  
@@ -707,7 +707,7 @@ li {
 }
 #camera_1 {
 position: relative;
-top: -17px;
+top: -28px;
   padding: 0%;
   
 
