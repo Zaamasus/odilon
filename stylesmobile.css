@@ -231,6 +231,7 @@ li {
   height: 3px;
   background-color: #94FF00;
   margin: auto;
+  border-radius: 10px;
 }
 
 
@@ -265,8 +266,8 @@ li {
 
 .dividerElement_01 {
   display: flex;
-  width: 250px;
-  height: 1px;
+  width: 270px;
+  height: 2px;
   background-color: #94ff00;
   position: relative;
   margin: auto;
@@ -277,11 +278,32 @@ li {
   display: flex;
   width: 250px;
   height: 1px;
-  background-color: #208cff;
+  background-color: #94ff00;
   position: relative;
   margin: auto;
 
 }
+
+.videoLogo_01 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 80vw);
+  height: 45px;
+
+
+
+}
+
+.videO_logo {
+  border: 2px #94ff00 solid;
+  width: 100%;
+  height: 45vh;
+  object-fit: cover;
+  display: block;
+
+
+}
+
 
 
 .txt h3 {
@@ -356,7 +378,7 @@ li {
 .dividerElement_03 {
   display: flex;
   width: 250px;
-  height: 1px;
+  height: 2px;
   background-color: #94ff00;
   position: relative;
   margin: auto;
@@ -441,7 +463,7 @@ li {
 
   height: 33vh;
   position: relative;
-  
+
   display: block;
 }
 
@@ -610,7 +632,7 @@ li {
 
 .galeria-vf {
   display: flex;
-  margin: 50px auto;
+  margin: 123px auto auto auto;
   position: relative;
   align-items: center;
   justify-content: center;
@@ -633,48 +655,48 @@ li {
 #div-vf {
   width: 45px;
   height: 3px;
-  background-color: #7400FF;
+  background-color: yellow;
   margin: auto;
 }
 
 /* --------------------------------------------------- */
 
-.textGalerry{
+.textGalerry {
   display: flex;
   width: 55%;
   margin: 143px auto auto auto;
   align-items: center;
-  
+
 }
 
-.textGalerry h1{
+.textGalerry h1 {
   width: 3em;
   font-size: 2em;
   padding: 5px;
 
- 
+
   color: white;
 }
 
-.textGalerry img{
+.textGalerry img {
   padding: 5px;
-  width: 70px;
-  height: 70px;
- 
+  width: 50px;
+  height: 50px;
+
 }
 
 .gallery2 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5, 80vw);
-  grid-gap: 25px; 
+  grid-gap: 25px;
   margin-bottom: 100px;
 
 }
 
 
-.gallery2 video{
-  border: 2px #7400FF solid;
+.gallery2 video {
+  border: 2px yellow solid;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -684,7 +706,7 @@ li {
 
 
 
-.textFotos{
+.textFotos {
   display: flex;
   align-items: center;
   text-align: center;
@@ -693,23 +715,27 @@ li {
   margin-bottom: 100px;
 
 }
-.textFotos h1{
+
+.textFotos h1 {
   height: 70px;
   width: 4em;
   font-size: 2em;
   padding: 5px;
 
- 
+
   color: white;
 
 
 
 }
+
 #camera_1 {
-position: relative;
-top: -28px;
+  position: relative;
+  top: -26px;
   padding: 0%;
-  
+  width: 50px;
+  height: 50px;
+
 
 
 }
@@ -723,7 +749,7 @@ top: -28px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(8, 85vw);
-  grid-gap: 1.5rem; 
+  grid-gap: 1.5rem;
   margin-bottom: 45px;
 }
 
@@ -732,7 +758,7 @@ top: -28px;
 
 
 .gallery img {
-  border: 2px #7400FF solid;
+  border: 2px yellow solid;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -824,7 +850,7 @@ top: -28px;
 }
 
 .telefone button {
-  
+
   padding: 5px;
   display: block;
   color: rgba(3, 210, 3, 0.906);
