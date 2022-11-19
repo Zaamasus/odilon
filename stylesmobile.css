@@ -816,7 +816,7 @@ li {
   align-items: center;
   padding: 0;
   position: relative;
-  height: 63px;
+  height: 54px;
   width: 100%;
   display: flex;
   margin: 5px auto;
@@ -832,16 +832,17 @@ li {
   padding-top: 5px;
   display: block;
   width: 50%;
-  background-color: rgba(3, 210, 3, 0.906);
+  background-color: rgb(122, 184, 0);
   height: 62px;
 }
+
 
 .telefone a {
   margin: auto;
   font-family: monospace;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.906);
-  background-color: rgba(3, 210, 3, 0.906);
+  background-color: rgb(122, 184, 0);
 }
 
 .telefone img {
@@ -857,8 +858,8 @@ li {
 
   padding: 5px;
   display: block;
-  color: rgba(3, 210, 3, 0.906);
-  background-color: rgba(3, 210, 3, 0.906);
+ 
+  background-color: rgb(122, 184, 0);
   border: none;
   margin: auto;
 }
@@ -872,7 +873,7 @@ li {
   padding-top: 5px;
   display: block;
   width: 50%;
-  background-color: rgba(3, 210, 3, 0.906);
+  background-color: rgb(52, 175, 35);
 }
 
 .whatsapp img {
@@ -889,14 +890,14 @@ li {
   font-family: monospace;
   font-size: 15px;
   color: rgba(0, 0, 0, 0.906);
-  background-color: rgba(3, 210, 3, 0.906);
+  background-color: rgb(52, 175, 35);
 }
 
 .whatsapp button {
   padding: 5px;
   margin: auto;
   display: block;
-  color: rgba(3, 210, 3, 0.906);
-  background-color: transparent;
+  background-color: rgb(52, 175, 35);
+
   border: none;
 }
