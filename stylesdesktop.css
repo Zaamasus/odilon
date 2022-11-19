@@ -809,99 +809,103 @@
   
   
   
-  .todos-contato {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    position: fixed;
-    bottom: 0%;
-    left: 0;
-  }
   
-  .contatos {
-    align-items: center;
-    padding: 0;
-    position: relative;
-    height: 63px;
-    width: 100%;
-    display: flex;
-    margin: 5px auto;
-    bottom: 0%;
-  }
+
+.todos-contato {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: fixed;
+  bottom: 0%;
+  left: 0;
+}
+
+.contatos {
+  align-items: center;
+  padding: 0;
+  position: relative;
+  height: 54px;
+  width: 100%;
+  display: flex;
+  margin: 5px auto;
+  bottom: 0%;
+}
+
+.telefone {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+
+  padding-top: 5px;
+  display: block;
+  width: 50%;
+  background-color: rgb(122, 184, 0);
+  height: 62px;
+}
+
+
+.telefone a {
+  margin: auto;
+  font-family: monospace;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.906);
+  background-color: rgb(122, 184, 0);
+}
+
+.telefone img {
+  position: relative;
+  margin: auto;
+  display: block;
+  width: 30px;
+  height: 30px;
+
+}
+
+.telefone button {
+
+  padding: 5px;
+  display: block;
+ 
+  background-color: rgb(122, 184, 0);
+  border: none;
+  margin: auto;
+}
+
+.whatsapp {
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+
+  height: 62px;
+  padding-top: 5px;
+  display: block;
+  width: 50%;
+  background-color: rgb(52, 175, 35);
+}
+
+.whatsapp img {
   
-  .telefone {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  
-  
-    padding-top: 5px;
-    display: block;
-    width: 50%;
-    background-color: rgba(3, 210, 3, 0.906);
-    height: 62px;
-  }
-  
-  .telefone a {
-    margin: auto;
-    font-family: monospace;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.906);
-    background-color: rgba(3, 210, 3, 0.906);
-  }
-  
-  .telefone img {
-    position: relative;
-    margin: auto;
-    display: block;
-    width: 30px;
-    height: 30px;
-  
-  }
-  
-  .telefone button {
-  
-    padding: 5px;
-    display: block;
-    color: rgba(3, 210, 3, 0.906);
-    background-color: rgba(3, 210, 3, 0.906);
-    border: none;
-    margin: auto;
-  }
-  
-  .whatsapp {
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-  
-    height: 62px;
-    padding-top: 5px;
-    display: block;
-    width: 50%;
-    background-color: rgba(3, 210, 3, 0.906);
-  }
-  
-  .whatsapp img {
-    margin: auto;
-    display: block;
-    width: 30px;
-    height: 30px;
-    color: #000000;
-  
-  }
-  
-  .whatsapp a {
-    font-family: monospace;
-    font-size: 15px;
-    color: rgba(0, 0, 0, 0.906);
-    background-color: rgba(3, 210, 3, 0.906);
-  }
-  
-  .whatsapp button {
-    padding: 5px;
-    margin: auto;
-    display: block;
-    color: rgba(3, 210, 3, 0.906);
-    background-color: transparent;
-    border: none;
-  }
+  margin: auto;
+  display: block;
+  width: 30px;
+  height: 30px;
+  color: #000000;
+
+}
+
+.whatsapp a {
+  font-family: monospace;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.906);
+  background-color: rgb(52, 175, 35);
+}
+
+.whatsapp button {
+  padding: 5px;
+  margin: auto;
+  display: block;
+  background-color: rgb(52, 175, 35);
+
+  border: none;
+}
