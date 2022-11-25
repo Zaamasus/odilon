@@ -52,7 +52,10 @@
 
 
 
-
+*{
+  margin: 0 ;
+  padding: 0;
+}
 
 body {
   animation-name: left;
@@ -66,6 +69,33 @@ body {
   height: 2000px;
 
 }
+
+
+/* DIVISORES */
+
+
+.dividerElement {
+  display: flex;
+  width: 250px;
+  height: 2px;
+  background-color: #94ff00;
+  position: relative;
+  margin: auto;
+
+}
+
+.element {
+
+  display: flex;
+  width: 250px;
+  height: 1px;
+  background-color: #eeff00;
+  position: relative;
+  margin: auto;
+
+}
+
+
 
 
 /* ---------------------------INICIO DO CABESALHO---------------------------------------------------------- */
@@ -245,16 +275,14 @@ li {
 
 }
 
-.thirdContender h1 {
+.title{
   font-family: 'Quicksand', sans-serif;
-  width: 26vh;
-  color: white;
-  font-size: 4vh;
-  margin: 15px auto;
+  position: relative;
+  text-align: center;
 
 }
 
-.thirdContender h2 {
+.title_2 h2 {
   width: 30vh;
   color: white;
   font-size: 16px;
@@ -264,25 +292,8 @@ li {
 
 }
 
-.dividerElement_01 {
-  display: flex;
-  width: 270px;
-  height: 2px;
-  background-color: #94ff00;
-  position: relative;
-  margin: auto;
 
-}
 
-.element_01 {
-  display: flex;
-  width: 250px;
-  height: 1px;
-  background-color: #94ff00;
-  position: relative;
-  margin: auto;
-
-}
 
 .videoLogo_01 {
   display: grid;
@@ -306,7 +317,7 @@ li {
 }
 
 
-
+/* 
 .txt h3 {
   color: #6F6F6F;
   font-family: "Quicksand", Sans-serif;
@@ -347,7 +358,7 @@ li {
   margin: 35px auto;
 
 
-}
+} */
 
 
 
@@ -361,20 +372,16 @@ li {
   margin: 35px auto;
 }
 
-.olhos1 {
-  width: 60px;
-  margin: auto;
+
+.icons_img img{
+  display: block;
+  width: 3.5rem;
+  margin: 30px auto;
 
 }
 
-.olhos1 img {
 
-  border-radius: 50%;
-  width: 60px;
-  height: 55px;
-  margin: 20px auto;
 
-}
 
 .dividerElement_03 {
   display: flex;
@@ -407,13 +414,7 @@ li {
   margin: auto;
 }
 
-.diamente img {
-  border-radius: 50%;
-  width: 60px;
-  height: 55px;
-  margin: 20px auto;
 
-}
 
 .pessoas {
   width: 100%;
@@ -423,17 +424,20 @@ li {
 
 
 
+.missao{
+
+}
 
 
-.missao h1 {
+h1.title {
   font-family: 'Quicksand', sans-serif;
-  width: 14vh;
+ 
   color: white;
   font-size: 4vh;
   margin: 15px auto;
 }
 
-.missao h2 {
+h2.title_2 {
   width: 30vh;
   color: white;
   font-size: 16px;
@@ -455,7 +459,6 @@ li {
   margin: 14px auto;
 
 }
-
 
 
 
