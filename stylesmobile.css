@@ -73,6 +73,31 @@ body {
 
 /* DIVISORES */
 
+.dividerElement_logo7 {
+  display: flex;
+  width: 15.625rem;
+  height: .125rem;
+  background-color: #94ff00;
+  position: relative;
+  margin: auto;
+
+}
+
+
+
+
+.element_logo {
+
+  display: flex;
+  width: 250px;
+  height: 1px;
+  background-color: #eeff00;
+  position: relative;
+  margin: auto;
+
+}
+
+
 
 .dividerElement {
   display: flex;
@@ -251,7 +276,7 @@ li {
   text-transform: uppercase;
   line-height: 1.2em;
   margin: 50px auto;
-  width: 16vh;
+  width: 32vh;
   font-size: 29px;
 
 }
